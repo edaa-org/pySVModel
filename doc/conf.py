@@ -37,7 +37,7 @@ def _LatestTagName():
 
 # The full version, including alpha/beta/rc tags
 version = "0.1"     # The short X.Y version.
-release = "0.1.1"   # The full version, including alpha/beta/rc tags.
+release = "0.1.2"   # The full version, including alpha/beta/rc tags.
 try:
 	if _IsUnderGitControl:
 		latestTagName = _LatestTagName()[1:]		# remove prefix "v"
@@ -224,8 +224,8 @@ autodoc_member_order = "bysource"       # alphabetical, groupwise, bysource
 extlinks = {
 	'issue': ('https://github.com/edaa-org/pySystemVerilogModel/issues/%s', 'issue #'),
 	'pull':  ('https://github.com/edaa-org/pySystemVerilogModel/pull/%s', 'pull request #'),
-	'src':   ('https://github.com/edaa-org/pySystemVerilogModel/blob/master/pySystemVerilogModel/%s?ts=2', None),
-#	'test':  ('https://github.com/edaa-org/pySystemVerilogModel/blob/master/test/%s?ts=2', None)
+	'src':   ('https://github.com/edaa-org/pySystemVerilogModel/blob/main/pySystemVerilogModel/%s?ts=2', None),
+#	'test':  ('https://github.com/edaa-org/pySystemVerilogModel/blob/main/test/%s?ts=2', None)
 }
 
 
