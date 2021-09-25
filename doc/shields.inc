@@ -74,21 +74,21 @@
    :target: https://github.com/edaa-org/pySystemVerilogModel/actions?query=workflow%3A%22Test+and+Coverage%22
 
 .. # Codacy - quality
-.. |SHIELD:svg:pySVModel-codacy-quality| image:: https://img.shields.io/codacy/grade/2286426d2b11417e90010427b7fed8e7?logo=codacy
+.. |SHIELD:svg:pySVModel-codacy-quality| image:: https://img.shields.io/codacy/grade/39d312bf98244961975559f141c3e000?logo=codacy
    :alt: Codacy - Quality
    :height: 22
    :target: https://www.codacy.com/manual/edaa-org/pySystemVerilogModel
-.. |SHIELD:png:pySVModel-codacy-quality| image:: https://raster.shields.io/codacy/grade/2286426d2b11417e90010427b7fed8e7?logo=codacy
+.. |SHIELD:png:pySVModel-codacy-quality| image:: https://raster.shields.io/codacy/grade/39d312bf98244961975559f141c3e000?logo=codacy
    :alt: Codacy - Quality
    :height: 22
    :target: https://www.codacy.com/manual/edaa-org/pySystemVerilogModel
 
 .. # Codacy - coverage
-.. |SHIELD:svg:pySVModel-codacy-coverage| image:: https://img.shields.io/codacy/coverage/2286426d2b11417e90010427b7fed8e7?logo=codacy
+.. |SHIELD:svg:pySVModel-codacy-coverage| image:: https://img.shields.io/codacy/coverage/39d312bf98244961975559f141c3e000?logo=codacy
    :alt: Codacy - Line Coverage
    :height: 22
    :target: https://www.codacy.com/manual/edaa-org/pySystemVerilogModel
-.. |SHIELD:png:pySVModel-codacy-coverage| image:: https://raster.shields.io/codacy/coverage/2286426d2b11417e90010427b7fed8e7?logo=codacy
+.. |SHIELD:png:pySVModel-codacy-coverage| image:: https://raster.shields.io/codacy/coverage/39d312bf98244961975559f141c3e000?logo=codacy
    :alt: Codacy - Line Coverage
    :height: 22
    :target: https://www.codacy.com/manual/edaa-org/pySystemVerilogModel
