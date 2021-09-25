@@ -58,6 +58,7 @@ jobs:
           files: TestReport.xml
           comment_title: Unit Test Results (Python ${{ env.PYTHON }})
 
+
   Coverage:
     name: 📈 Collect Coverage Data using Python 3.9
     runs-on: ubuntu-latest
@@ -104,6 +105,7 @@ jobs:
         with:
           project-token: ${{ secrets.CODACY_PROJECT_TOKEN }}
           coverage-reports: ./coverage.xml
+
 
   Release:
     name: 📝 Create 'Release Page' on GitHub
@@ -157,6 +159,7 @@ jobs:
           draft: false
           prerelease: false
 
+
   Package:
     name: 📦 Package in Wheel Format
     runs-on: ubuntu-latest
@@ -202,6 +205,7 @@ jobs:
           if-no-files-found: error
           retention-days: 1
 
+
   PublishOnPyPI:
     name: 🚀 Publish to PyPI
     runs-on: ubuntu-latest
@@ -240,6 +244,7 @@ jobs:
           TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
         run: |
           twine upload dist/*
+
 
 #  VerifyDocs:
 #    name: 👍 Verify example snippets using Python 3.9
@@ -294,34 +299,35 @@ jobs:
 #          python3 example.py
 
 
-#  BuildTheDocs:
-#    name: 📓 Run BuildTheDocs and publish to GH-Pages
-#    runs-on: ubuntu-latest
-#
-##    needs:
-##      - VerifyDocs
-#
-#    steps:
-#      - name: Checkout repository
-#        uses: actions/checkout@v2
-#
-#      - name: 🚢 Build container image 'vhdl/doc'
-#        run: |
-#          docker build -t vhdl/doc - <<-EOF
-#          FROM btdi/sphinx:featured
-#          RUN apk add -U --no-cache graphviz
-#          EOF
-#
-#      - name: 🛳️ Build documentation from './pySystemVerilogModel/doc' and publish to GitHub Pages
-#        uses: buildthedocs/btd@v0
-#        with:
-#          token: ${{ github.token }}
-#
-#      - name: 📤 Upload artifacts
-#        uses: actions/upload-artifact@master
-#        with:
-#          name: doc
-#          path: doc/_build/html
+  BuildTheDocs:
+    name: 📓 Run BuildTheDocs and publish to GH-Pages
+    runs-on: ubuntu-latest
+
+#    needs:
+#      - VerifyDocs
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: 🚢 Build container image 'vhdl/doc'
+        run: |
+          docker build -t vhdl/doc - <<-EOF
+          FROM btdi/sphinx:featured
+          RUN apk add -U --no-cache graphviz
+          EOF
+
+      - name: 🛳️ Build documentation from './pySystemVerilogModel/doc' and publish to GitHub Pages
+        uses: buildthedocs/btd@v0
+        with:
+          token: ${{ github.token }}
+
+      - name: 📤 Upload artifacts
+        uses: actions/upload-artifact@master
+        with:
+          name: doc
+          path: doc/_build/html
+
 
   ArtifactCleanUp:
     name: 🗑️ Artifact Cleanup
