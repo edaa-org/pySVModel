@@ -116,20 +116,25 @@ class VerilogVersion(Enum):
 class SystemVerilogVersion(Enum):
 	VHDL2005 =         2005
 	VHDL2009 =         2009
+	VHDL2012 =         2012
 	VHDL2017 =         2017
 
 	__VERSION_MAPPINGS__: Dict[Union[int, str], Enum] = {
 		5:      VHDL2005,
 		9:      VHDL2009,
+		12:     VHDL2012,
 		17:     VHDL2017,
 		2005:   VHDL2005,
 		2009:   VHDL2009,
+		2012:   VHDL2012,
 		2017:   VHDL2017,
 		"05":   VHDL2005,
 		"09":   VHDL2009,
+		"12":   VHDL2012,
 		"17":   VHDL2017,
 		"2005": VHDL2005,
 		"2009": VHDL2009,
+		"2012": VHDL2012,
 		"2017": VHDL2017,
 	}
 
