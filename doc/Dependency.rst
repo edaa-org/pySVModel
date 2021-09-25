@@ -10,7 +10,7 @@ Dependency
 .. |img-pySVModel-req-status| image:: https://img.shields.io/requires/github/edaa-org/pySystemVerilogModel
    :alt: Requires.io
    :height: 22
-   :target: https://requires.io/github/edaa-org/pySystemVerilogModel/requirements/?branch=master
+   :target: https://requires.io/github/edaa-org/pySystemVerilogModel/requirements/?branch=main
 
 +------------------------------------------+------------------------------------------+
 | `Libraries.io <https://libraries.io/>`_  | `Requires.io <https://requires.io/>`_    |

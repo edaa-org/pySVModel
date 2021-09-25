@@ -224,8 +224,8 @@ autodoc_member_order = "bysource"       # alphabetical, groupwise, bysource
 extlinks = {
 	'issue': ('https://github.com/edaa-org/pySystemVerilogModel/issues/%s', 'issue #'),
 	'pull':  ('https://github.com/edaa-org/pySystemVerilogModel/pull/%s', 'pull request #'),
-	'src':   ('https://github.com/edaa-org/pySystemVerilogModel/blob/master/pySystemVerilogModel/%s?ts=2', None),
-#	'test':  ('https://github.com/edaa-org/pySystemVerilogModel/blob/master/test/%s?ts=2', None)
+	'src':   ('https://github.com/edaa-org/pySystemVerilogModel/blob/main/pySystemVerilogModel/%s?ts=2', None),
+#	'test':  ('https://github.com/edaa-org/pySystemVerilogModel/blob/main/test/%s?ts=2', None)
 }
 
 
