@@ -1,0 +1,179 @@
+# =============================================================================
+#              ____            _              __     __        _ _             __  __           _      _
+#  _ __  _   _/ ___| _   _ ___| |_ ___ _ __ __\ \   / /__ _ __(_) | ___   __ _|  \/  | ___   __| | ___| |
+# | '_ \| | | \___ \| | | / __| __/ _ \ '_ ` _ \ \ / / _ \ '__| | |/ _ \ / _` | |\/| |/ _ \ / _` |/ _ \ |
+# | |_) | |_| |___) | |_| \__ \ ||  __/ | | | | \ V /  __/ |  | | | (_) | (_| | |  | | (_) | (_| |  __/ |
+# | .__/ \__, |____/ \__, |___/\__\___|_| |_| |_|\_/ \___|_|  |_|_|\___/ \__, |_|  |_|\___/ \__,_|\___|_|
+# |_|    |___/       |___/                                               |___/
+# ==============================================================================
+# Authors:            Patrick Lehmann
+#
+# Python package:     An abstract SystemVerilog language model.
+#
+# Description:
+# ------------------------------------
+#		TODO:
+#
+# License:
+# ==============================================================================
+# Copyright 2021-2021 Patrick Lehmann - Boetzingen, Germany
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#   http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# SPDX-License-Identifier: Apache-2.0
+# ==============================================================================
+#
+"""
+An abstract SystemVerilog language model.
+
+:copyright: Copyright 2021-2021 Patrick Lehmann - Bötzingen, Germany
+:license: Apache License, Version 2.0
+"""
+from enum import unique, Enum
+from typing import Dict, Union
+
+from pydecor  import export
+
+
+__version__ = "0.1.0"
+
+
+@export
+@unique
+class VerilogVersion(Enum):
+	VHDL95 =             95
+	VHDL2001 =         2001
+	VHDL2005 =         2005
+
+	__VERSION_MAPPINGS__: Dict[Union[int, str], Enum] = {
+		95:     VHDL95,
+		1:      VHDL2001,
+		5:      VHDL2005,
+		1995:   VHDL95,
+		2001:   VHDL2001,
+		2005:   VHDL2005,
+		"95":   VHDL95,
+		"01":   VHDL2001,
+		"05":   VHDL2005,
+		"1995": VHDL95,
+		"2001": VHDL2001,
+		"2005": VHDL2005,
+	}
+
+	def __init__(self, *_):
+		"""Patch the embedded MAP dictionary"""
+		for k, v in self.__class__.__VERSION_MAPPINGS__.items():
+			if (not isinstance(v, self.__class__)) and (v == self.value):
+				self.__class__.__VERSION_MAPPINGS__[k] = self
+
+	@classmethod
+	def Parse(cls, value):
+		try:
+			return cls.__VERSION_MAPPINGS__[value]
+		except KeyError:
+			ValueError("Value '{0!s}' cannot be parsed to member of {1}.".format(value, cls.__name__))
+
+	def __lt__(self, other):
+		return self.value < other.value
+
+	def __le__(self, other):
+		return self.value <= other.value
+
+	def __gt__(self, other):
+		return self.value > other.value
+
+	def __ge__(self, other):
+		return self.value >= other.value
+
+	def __ne__(self, other):
+		return self.value != other.value
+
+	def __eq__(self, other):
+		if (self is self.__class__.Any) or (other is self.__class__.Any):
+			return True
+		else:
+			return self.value == other.value
+
+	def __str__(self):
+		return "Verilog'" + str(self.value)[-2:]
+
+	def __repr__(self):
+		return str(self.value)
+
+
+@export
+@unique
+class SystemVerilogVersion(Enum):
+	VHDL2005 =         2005
+	VHDL2009 =         2009
+	VHDL2012 =         2012
+	VHDL2017 =         2017
+
+	__VERSION_MAPPINGS__: Dict[Union[int, str], Enum] = {
+		5:      VHDL2005,
+		9:      VHDL2009,
+		12:     VHDL2012,
+		17:     VHDL2017,
+		2005:   VHDL2005,
+		2009:   VHDL2009,
+		2012:   VHDL2012,
+		2017:   VHDL2017,
+		"05":   VHDL2005,
+		"09":   VHDL2009,
+		"12":   VHDL2012,
+		"17":   VHDL2017,
+		"2005": VHDL2005,
+		"2009": VHDL2009,
+		"2012": VHDL2012,
+		"2017": VHDL2017,
+	}
+
+	def __init__(self, *_):
+		"""Patch the embedded MAP dictionary"""
+		for k, v in self.__class__.__VERSION_MAPPINGS__.items():
+			if (not isinstance(v, self.__class__)) and (v == self.value):
+				self.__class__.__VERSION_MAPPINGS__[k] = self
+
+	@classmethod
+	def Parse(cls, value):
+		try:
+			return cls.__VERSION_MAPPINGS__[value]
+		except KeyError:
+			ValueError("Value '{0!s}' cannot be parsed to member of {1}.".format(value, cls.__name__))
+
+	def __lt__(self, other):
+		return self.value < other.value
+
+	def __le__(self, other):
+		return self.value <= other.value
+
+	def __gt__(self, other):
+		return self.value > other.value
+
+	def __ge__(self, other):
+		return self.value >= other.value
+
+	def __ne__(self, other):
+		return self.value != other.value
+
+	def __eq__(self, other):
+		if (self is self.__class__.Any) or (other is self.__class__.Any):
+			return True
+		else:
+			return self.value == other.value
+
+	def __str__(self):
+		return "SV'" + str(self.value)[-2:]
+
+	def __repr__(self):
+		return str(self.value)
