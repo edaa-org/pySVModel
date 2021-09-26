@@ -19,36 +19,43 @@
 [![Documentation License](https://img.shields.io/badge/doc%20license-CC--BY%204.0-green)](LICENSE.md)
 [![Documentation - Read Now!](https://img.shields.io/badge/doc-read%20now%20%E2%9E%94-blueviolet)](https://edaa-org.github.io/pySystemVerilogModel/)
 
-# pySystemVerilogModel
-
 An abstract language model of SystemVerilog (incl. Verilog) written in Python.
 
-## Main Goals
-This package provides a unified abstract language model for SystemVerilog (incl.
-Verilog). Projects reading from source files can derive own classes and implement
-additional logic to create a concrete language model for their tools.
+<p align="center">
+  <a title="edaa-org.github.io/pySystemVerilogModel" href="https://edaa-org.github.io/pySystemVerilogModel"><img width="500px" src="doc/_static/logo.svg"/></a>
+</p>
 
-Projects consuming pre-processed VHDL data (parsed, analyzed or elaborated) can
-build higher level features and services on such a model, while supporting multiple
-frontends.
+
+## Main Goals
+
+This package provides a unified abstract language model for SystemVerilog (incl. Verilog).
+Projects reading from source files can derive own classes and implement additional logic to create a concrete language
+model for their tools.
+
+Projects consuming pre-processed VHDL data (parsed, analyzed or elaborated) can build higher level features and services
+on such a model, while supporting multiple frontends.
 
 
 ## Use Cases
-**pySystemVerilogModel Generators**
-* TBD
 
-**pySystemVerilogModel Consumers**
-* TBD
+### pySystemVerilogModel Generators
+
+*TBD*
+
+### pySystemVerilogModel Consumers
+
+*TBD*
 
 
 ## Examples
+
 ### List all Modules with Parameters and Ports
+
 * TBD
 
 
-
-
 ## Contributors
+
 * [Patrick Lehmann](https://github.com/Paebbels) (Maintainer)
 * [Unai Martinez-Corral](https://github.com/umarcor)
 * [and more...](https://github.com/VHDL/pySystemVerilogModel/graphs/contributors)
