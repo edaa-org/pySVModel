@@ -14,8 +14,8 @@ coverage.xml
 
 # Sphinx
 doc/_build/
-doc/pyVHDLModel/**/*.*
-!doc/pyVHDLModel/index.rst
+doc/pySystemVerilogModel/**/*.*
+!doc/pySystemVerilogModel/index.rst
 
 # BuildTheDocs
 doc/_theme/**/*.*
