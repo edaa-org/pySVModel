@@ -310,9 +310,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: 🚢 Build container image 'vhdl/doc'
+      - name: 🚢 Build container image 'EDAA/doc'
         run: |
-          docker build -t vhdl/doc - <<-EOF
+          docker build -t edaa/doc - <<-EOF
           FROM btdi/sphinx:featured
           RUN apk add -U --no-cache graphviz
           EOF
