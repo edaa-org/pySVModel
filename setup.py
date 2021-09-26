@@ -8,7 +8,7 @@
 # ==============================================================================
 # Authors:            Patrick Lehmann
 #
-# Package installer:  An abstract VHDL language model.
+# Package installer:  An abstract System Verilog language model.
 #
 # License:
 # ============================================================================
@@ -32,7 +32,7 @@
 from pathlib    import Path
 from setuptools import setup as setuptools_setup, find_packages as setuptools_find_packages
 
-gitHubNamespace = "vhdl"
+gitHubNamespace = "edaa-org"
 projectName =     "pySystemVerilogModel"
 
 # Read README for upload to PyPI
@@ -70,7 +70,7 @@ setuptools_setup(
 		'Source Code':   sourceCodeURL,
 		'Issue Tracker': sourceCodeURL + "/issues"
 	},
-	# download_url="https://github.com/vhdl/pyVHDLModel/tarball/0.1.0",
+	# download_url="https://github.com/edaa-org/pySystemVerilogModel/tarball/0.1.0",
 
 	packages=setuptools_find_packages(exclude=["tests", "tests.*",]),
 	classifiers=[
