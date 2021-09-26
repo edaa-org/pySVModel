@@ -32,8 +32,8 @@ This package provides a unified abstract language model for SystemVerilog (incl.
 Projects reading from source files can derive own classes and implement additional logic to create a concrete language
 model for their tools.
 
-Projects consuming pre-processed VHDL data (parsed, analyzed or elaborated) can build higher level features and services
-on such a model, while supporting multiple frontends.
+Projects consuming pre-processed System Verilog data (parsed, analyzed or elaborated) can build higher level features
+and services on such a model, while supporting multiple frontends.
 
 
 ## Use Cases
@@ -46,20 +46,17 @@ on such a model, while supporting multiple frontends.
 
 *TBD*
 
-
 ## Examples
 
 ### List all Modules with Parameters and Ports
 
-* TBD
-
+*TBD*
 
 ## Contributors
 
 * [Patrick Lehmann](https://github.com/Paebbels) (Maintainer)
 * [Unai Martinez-Corral](https://github.com/umarcor)
-* [and more...](https://github.com/VHDL/pySystemVerilogModel/graphs/contributors)
-
+* [and more...](https://github.com/edaa-org/pySystemVerilogModel/graphs/contributors)
 
 ## License
 
