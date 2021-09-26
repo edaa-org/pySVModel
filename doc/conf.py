@@ -111,7 +111,7 @@ html_logo = str(Path(html_static_path[0]) / "logo.svg")
 html_favicon = str(Path(html_static_path[0]) / "favicon.svg")
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'pyVHDLModelDoc'
+htmlhelp_basename = 'pySystemVerilogModelDoc'
 
 # If not None, a 'Last updated on:' timestamp is inserted at every page
 # bottom, using the given strftime format.
