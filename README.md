@@ -22,7 +22,7 @@
 An abstract language model of SystemVerilog (incl. Verilog) written in Python.
 
 <p align="center">
-  <a title="edaa-org.github.io/pySystemVerilogModel" href="https://edaa-org.github.io/pySystemVerilogModel"><img width="500px" src="doc/_static/logo.svg"/></a>
+  <a title="edaa-org.github.io/pySystemVerilogModel" href="https://edaa-org.github.io/pySystemVerilogModel"><img width="500px" src="doc/_static/banner.svg"/></a>
 </p>
 
 
