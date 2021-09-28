@@ -45,29 +45,29 @@ from typing import Dict, Union
 from pydecor  import export
 
 
-__version__ = "0.1.2"
+__version__ = "0.2.0"
 
 
 @export
 @unique
 class VerilogVersion(Enum):
-	VHDL95 =             95
-	VHDL2001 =         2001
-	VHDL2005 =         2005
+	Verilog95 =             95
+	Verilog2001 =         2001
+	Verilog2005 =         2005
 
 	__VERSION_MAPPINGS__: Dict[Union[int, str], Enum] = {
-		95:     VHDL95,
-		1:      VHDL2001,
-		5:      VHDL2005,
-		1995:   VHDL95,
-		2001:   VHDL2001,
-		2005:   VHDL2005,
-		"95":   VHDL95,
-		"01":   VHDL2001,
-		"05":   VHDL2005,
-		"1995": VHDL95,
-		"2001": VHDL2001,
-		"2005": VHDL2005,
+		95:     Verilog95,
+		1:      Verilog2001,
+		5:      Verilog2005,
+		1995:   Verilog95,
+		2001:   Verilog2001,
+		2005:   Verilog2005,
+		"95":   Verilog95,
+		"01":   Verilog2001,
+		"05":   Verilog2005,
+		"1995": Verilog95,
+		"2001": Verilog2001,
+		"2005": Verilog2005,
 	}
 
 	def __init__(self, *_):
@@ -114,28 +114,28 @@ class VerilogVersion(Enum):
 @export
 @unique
 class SystemVerilogVersion(Enum):
-	VHDL2005 =         2005
-	VHDL2009 =         2009
-	VHDL2012 =         2012
-	VHDL2017 =         2017
+	SystemVerilog2005 =         2005
+	SystemVerilog2009 =         2009
+	SystemVerilog2012 =         2012
+	SystemVerilog2017 =         2017
 
 	__VERSION_MAPPINGS__: Dict[Union[int, str], Enum] = {
-		5:      VHDL2005,
-		9:      VHDL2009,
-		12:     VHDL2012,
-		17:     VHDL2017,
-		2005:   VHDL2005,
-		2009:   VHDL2009,
-		2012:   VHDL2012,
-		2017:   VHDL2017,
-		"05":   VHDL2005,
-		"09":   VHDL2009,
-		"12":   VHDL2012,
-		"17":   VHDL2017,
-		"2005": VHDL2005,
-		"2009": VHDL2009,
-		"2012": VHDL2012,
-		"2017": VHDL2017,
+		5:      SystemVerilog2005,
+		9:      SystemVerilog2009,
+		12:     SystemVerilog2012,
+		17:     SystemVerilog2017,
+		2005:   SystemVerilog2005,
+		2009:   SystemVerilog2009,
+		2012:   SystemVerilog2012,
+		2017:   SystemVerilog2017,
+		"05":   SystemVerilog2005,
+		"09":   SystemVerilog2009,
+		"12":   SystemVerilog2012,
+		"17":   SystemVerilog2017,
+		"2005": SystemVerilog2005,
+		"2009": SystemVerilog2009,
+		"2012": SystemVerilog2012,
+		"2017": SystemVerilog2017,
 	}
 
 	def __init__(self, *_):

@@ -36,8 +36,8 @@ def _LatestTagName():
 	return check_output(["git", "describe", "--abbrev=0", "--tags"], universal_newlines=True).strip()
 
 # The full version, including alpha/beta/rc tags
-version = "0.1"     # The short X.Y version.
-release = "0.1.2"   # The full version, including alpha/beta/rc tags.
+version = "0.2"     # The short X.Y version.
+release = "0.2.0"   # The full version, including alpha/beta/rc tags.
 try:
 	if _IsUnderGitControl:
 		latestTagName = _LatestTagName()[1:]		# remove prefix "v"
@@ -111,7 +111,7 @@ html_logo = str(Path(html_static_path[0]) / "logo.svg")
 html_favicon = str(Path(html_static_path[0]) / "favicon.svg")
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'pyVHDLModelDoc'
+htmlhelp_basename = 'pySystemVerilogModelDoc'
 
 # If not None, a 'Last updated on:' timestamp is inserted at every page
 # bottom, using the given strftime format.

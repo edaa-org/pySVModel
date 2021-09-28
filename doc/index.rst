@@ -23,8 +23,7 @@
 The pySystemVerilogModel Documentation
 ######################################
 
-An abstract SystemVerilog language model.
-
+An abstract System Verilog language model.
 
 
 .. _goals:
@@ -32,14 +31,12 @@ An abstract SystemVerilog language model.
 Main Goals
 **********
 
-This package provides a unified abstract language model for SystemVerilog (incl.
-Verilog). Projects reading from source files can derive own classes and implement
-additional logic to create a concrete language model for their tools.
+This package provides a unified abstract language model for System Verilog (incl. Verilog).
+Projects reading from source files can derive own classes and implement additional logic to create a concrete language
+model for their tools.
 
-Projects consuming pre-processed VHDL data (parsed, analyzed or elaborated) can
-build higher level features and services on such a model, while supporting multiple
-frontends.
-
+Projects consuming pre-processed System Verilog data (parsed, analyzed or elaborated) can build higher level features
+and services on such a model, while supporting multiple frontends.
 
 
 .. _usecase:
@@ -65,8 +62,7 @@ News
 
    .. rubric:: New Repository Created
 
-* Moved ``VerilogVersion`` and ``SystemVerilogVersion`` classes from ``pyEDAA.ProjectModel``
-  to this new repository.
+* Moved ``VerilogVersion`` and ``SystemVerilogVersion`` classes from ``pyEDAA.ProjectModel`` to this new repository.
 
 
 .. _contributors:
@@ -76,7 +72,7 @@ Contributors
 
 * `Patrick Lehmann <https://github.com/Paebbels>`__ (Maintainer)
 * `Unai Martinez-Corral <https://github.com/umarcor/>`__
-* `and more... <https://github.com/edaa-org/pyVHDLModel/graphs/contributors>`__
+* `and more... <https://github.com/edaa-org/pySystemVerilogModel/graphs/contributors>`__
 
 
 License

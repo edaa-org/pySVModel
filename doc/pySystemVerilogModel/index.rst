@@ -1,3 +1,3 @@
 .. toctree::
 
-   pyVHDLModel
+   pySystemVerilogModel

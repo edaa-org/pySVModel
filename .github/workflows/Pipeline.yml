@@ -310,14 +310,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: 🚢 Build container image 'vhdl/doc'
+      - name: 🚢 Build container image 'EDAA/doc'
         run: |
-          docker build -t vhdl/doc - <<-EOF
+          docker build -t edaa/doc - <<-EOF
           FROM btdi/sphinx:featured
           RUN apk add -U --no-cache graphviz
           EOF
 
-      - name: 🛳️ Build documentation from './pySystemVerilogModel/doc' and publish to GitHub Pages
+      - name: 🛳️ Build documentation using container edaa/doc and publish to GitHub Pages
         uses: buildthedocs/btd@v0
         with:
           token: ${{ github.token }}
