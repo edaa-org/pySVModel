@@ -52,7 +52,7 @@ documentationURL =  "https://{namespace}.github.io/{projectName}".format(namespa
 # Assemble all package information
 setuptools_setup(
 	name=projectName,
-	version="0.2.1",
+	version="0.2.2",
 
 	author="Patrick Lehmann",
 	author_email="Paebbels@gmail.com",
