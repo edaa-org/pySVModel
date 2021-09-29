@@ -51,9 +51,10 @@ __version__ = "0.2.1"
 @export
 @unique
 class VerilogVersion(Enum):
-	Verilog95 =             95
-	Verilog2001 =         2001
-	Verilog2005 =         2005
+	Any =           -1
+	Verilog95 =     95
+	Verilog2001 = 2001
+	Verilog2005 = 2005
 
 	__VERSION_MAPPINGS__: Dict[Union[int, str], Enum] = {
 		95:     Verilog95,
@@ -62,6 +63,7 @@ class VerilogVersion(Enum):
 		1995:   Verilog95,
 		2001:   Verilog2001,
 		2005:   Verilog2005,
+		"Any":  Any,
 		"95":   Verilog95,
 		"01":   Verilog2001,
 		"05":   Verilog2005,
@@ -114,10 +116,11 @@ class VerilogVersion(Enum):
 @export
 @unique
 class SystemVerilogVersion(Enum):
-	SystemVerilog2005 =         2005
-	SystemVerilog2009 =         2009
-	SystemVerilog2012 =         2012
-	SystemVerilog2017 =         2017
+	Any =                 -1
+	SystemVerilog2005 = 2005
+	SystemVerilog2009 = 2009
+	SystemVerilog2012 = 2012
+	SystemVerilog2017 = 2017
 
 	__VERSION_MAPPINGS__: Dict[Union[int, str], Enum] = {
 		5:      SystemVerilog2005,
@@ -128,6 +131,7 @@ class SystemVerilogVersion(Enum):
 		2009:   SystemVerilog2009,
 		2012:   SystemVerilog2012,
 		2017:   SystemVerilog2017,
+		"Any":  Any,
 		"05":   SystemVerilog2005,
 		"09":   SystemVerilog2009,
 		"12":   SystemVerilog2012,
