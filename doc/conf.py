@@ -9,14 +9,14 @@ from json    import dump, loads
 
 sys.path.insert(0, abspath('.'))
 sys.path.insert(0, abspath('..'))
-sys.path.insert(0, abspath('../pySystemVerilogModel'))
+sys.path.insert(0, abspath('../pySVModel'))
 #sys.path.insert(0, abspath('_extensions'))
 
 
 # ==============================================================================
 # Project information
 # ==============================================================================
-project =   "pySystemVerilogModel"
+project =   "pySVModel"
 copyright = "2021-2021 Patrick Lehmann - Boetzingen, Germany"
 author =    "Patrick Lehmann"
 
@@ -111,7 +111,7 @@ html_logo = str(Path(html_static_path[0]) / "logo.svg")
 html_favicon = str(Path(html_static_path[0]) / "favicon.svg")
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'pySystemVerilogModelDoc'
+htmlhelp_basename = 'pySVModelDoc'
 
 # If not None, a 'Last updated on:' timestamp is inserted at every page
 # bottom, using the given strftime format.
@@ -158,8 +158,8 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
 	( master_doc,
-		'pySystemVerilogModel.tex',
-		'The pySystemVerilogModel Documentation',
+		'pySVModel.tex',
+		'The pySVModel Documentation',
 		'Patrick Lehmann',
 		'manual'
 	),
@@ -226,10 +226,10 @@ autodoc_member_order = "bysource"       # alphabetical, groupwise, bysource
 # Sphinx.Ext.ExtLinks
 # ==============================================================================
 extlinks = {
-	'issue': ('https://github.com/edaa-org/pySystemVerilogModel/issues/%s', 'issue #'),
-	'pull':  ('https://github.com/edaa-org/pySystemVerilogModel/pull/%s', 'pull request #'),
-	'src':   ('https://github.com/edaa-org/pySystemVerilogModel/blob/main/pySystemVerilogModel/%s?ts=2', None),
-#	'test':  ('https://github.com/edaa-org/pySystemVerilogModel/blob/main/test/%s?ts=2', None)
+	'issue': ('https://github.com/edaa-org/pySVModel/issues/%s', 'issue #'),
+	'pull':  ('https://github.com/edaa-org/pySVModel/pull/%s', 'pull request #'),
+	'src':   ('https://github.com/edaa-org/pySVModel/blob/main/pySVModel/%s?ts=2', None),
+#	'test':  ('https://github.com/edaa-org/pySVModel/blob/main/test/%s?ts=2', None)
 }
 
 
@@ -253,5 +253,5 @@ todo_link_only = True
 # AutoAPI.Sphinx
 # ==============================================================================
 autoapi_modules = {
-  'pySystemVerilogModel':  {'output': "pySystemVerilogModel", "override": True}
+  'pySVModel':  {'output': "pySVModel", "override": True}
 }

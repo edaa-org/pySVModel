@@ -31,7 +31,7 @@
 #
 from unittest import TestCase
 
-from pySystemVerilogModel import VerilogVersion, SystemVerilogVersion
+from pySVModel import VerilogVersion, SystemVerilogVersion
 
 
 if __name__ == "__main__":

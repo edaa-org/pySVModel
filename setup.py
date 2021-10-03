@@ -33,7 +33,7 @@ from pathlib    import Path
 from setuptools import setup as setuptools_setup, find_packages as setuptools_find_packages
 
 gitHubNamespace = "edaa-org"
-projectName =     "pySystemVerilogModel"
+projectName =     "pySVModel"
 
 # Read README for upload to PyPI
 readmeFile = Path("README.md")
@@ -70,7 +70,7 @@ setuptools_setup(
 		'Source Code':   sourceCodeURL,
 		'Issue Tracker': sourceCodeURL + "/issues"
 	},
-	# download_url="https://github.com/edaa-org/pySystemVerilogModel/tarball/0.1.0",
+	# download_url="https://github.com/edaa-org/pySVModel/tarball/0.1.0",
 
 	packages=setuptools_find_packages(exclude=["tests", "tests.*",]),
 	classifiers=[

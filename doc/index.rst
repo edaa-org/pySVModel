@@ -20,8 +20,8 @@
 
 --------------------------------------------------------------------------------
 
-The pySystemVerilogModel Documentation
-######################################
+The pySVModel Documentation
+###########################
 
 An abstract System Verilog language model.
 
@@ -72,7 +72,7 @@ Contributors
 
 * `Patrick Lehmann <https://github.com/Paebbels>`__ (Maintainer)
 * `Unai Martinez-Corral <https://github.com/umarcor/>`__
-* `and more... <https://github.com/edaa-org/pySystemVerilogModel/graphs/contributors>`__
+* `and more... <https://github.com/edaa-org/pySVModel/graphs/contributors>`__
 
 
 License
@@ -124,7 +124,7 @@ License
    :caption: References
    :hidden:
 
-   pySystemVerilogModel/index
+   pySVModel/index
 
 
 .. raw:: latex

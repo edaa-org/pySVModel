@@ -3,14 +3,14 @@
 Dependency
 ##########
 
-.. |img-pySVModel-lib-status| image:: https://img.shields.io/librariesio/release/pypi/pySystemVerilogModel
+.. |img-pySVModel-lib-status| image:: https://img.shields.io/librariesio/release/pypi/pySVModel
    :alt: Libraries.io status for latest release
    :height: 22
-   :target: https://libraries.io/github/edaa-org/pySystemVerilogModel
-.. |img-pySVModel-req-status| image:: https://img.shields.io/requires/github/edaa-org/pySystemVerilogModel
+   :target: https://libraries.io/github/edaa-org/pySVModel
+.. |img-pySVModel-req-status| image:: https://img.shields.io/requires/github/edaa-org/pySVModel
    :alt: Requires.io
    :height: 22
-   :target: https://requires.io/github/edaa-org/pySystemVerilogModel/requirements/?branch=main
+   :target: https://requires.io/github/edaa-org/pySVModel/requirements/?branch=main
 
 +------------------------------------------+------------------------------------------+
 | `Libraries.io <https://libraries.io/>`_  | `Requires.io <https://requires.io/>`_    |
@@ -21,8 +21,8 @@ Dependency
 
 .. _dependency-package:
 
-pySystemVerilogModel Package
-****************************
+pySVModel Package
+*****************
 
 +-----------------------------------------------------+-------------+---------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
 | **Package**                                         | **Version** | **License**                                                         | **Dependencies**                                                                                                                |
@@ -48,7 +48,7 @@ sub-dependencies are not evaluated further.
 +-----------------------------------------------------------+-------------+----------------------------------------------------------------------------------------+----------------------+
 | `pytest-cov <https://github.com/pytest-dev/pytest-cov>`__ | ≥2.12.1     | `MIT <https://github.com/pytest-dev/pytest-cov/blob/master/LICENSE>`__                 | *Not yet evaluated.* |
 +-----------------------------------------------------------+-------------+----------------------------------------------------------------------------------------+----------------------+
-| `Coverage <https://github.com/nedbat/coveragepy>`__       | ≥5.5        | `Apache License, 2.0 <https://github.com/nedbat/coveragepy/blob/master/LICENSE.txt>`__ | *Not yet evaluated.* |
+| `Coverage <https://github.com/nedbat/coveragepy>`__       | ≥6.0        | `Apache License, 2.0 <https://github.com/nedbat/coveragepy/blob/master/LICENSE.txt>`__ | *Not yet evaluated.* |
 +-----------------------------------------------------------+-------------+----------------------------------------------------------------------------------------+----------------------+
 
 
@@ -64,7 +64,7 @@ evaluated further.
 +-------------------------------------------------------------------------------------------------+--------------+----------------------------------------------------------------------------------------------------------+----------------------+
 | **Package**                                                                                     | **Version**  | **License**                                                                                              | **Dependencies**     |
 +=================================================================================================+==============+==========================================================================================================+======================+
-| `Sphinx <https://github.com/sphinx-doc/sphinx>`__                                               | ≥4.0.2       | `BSD 3-Clause <https://github.com/sphinx-doc/sphinx/blob/master/LICENSE>`__                              | *Not yet evaluated.* |
+| `Sphinx <https://github.com/sphinx-doc/sphinx>`__                                               | ≥4.2.0       | `BSD 3-Clause <https://github.com/sphinx-doc/sphinx/blob/master/LICENSE>`__                              | *Not yet evaluated.* |
 +-------------------------------------------------------------------------------------------------+--------------+----------------------------------------------------------------------------------------------------------+----------------------+
 | `sphinx_btd_theme <https://github.com/buildthedocs/sphinx.theme>`__                             |              | `MIT <https://github.com/buildthedocs/sphinx.theme/blob/master/LICENSE>`__                               | *Not yet evaluated.* |
 +-------------------------------------------------------------------------------------------------+--------------+----------------------------------------------------------------------------------------------------------+----------------------+
