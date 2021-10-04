@@ -15,7 +15,7 @@ Installation using PIP
 
 .. code-block:: bash
 
-   pip3 install pySystemVerilogModel
+   pip3 install pySVModel
 
 
 Updating using PIP
@@ -23,7 +23,7 @@ Updating using PIP
 
 .. code-block:: bash
 
-   pip3 install -U pySystemVerilogModel
+   pip3 install -U pySVModel
 
 
 
