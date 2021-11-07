@@ -16,7 +16,6 @@
 .. only:: html
 
    |  |SHIELD:svg:pySVModel-github| |SHIELD:svg:pySVModel-src-license| |SHIELD:svg:pySVModel-ghp-doc| |SHIELD:svg:pySVModel-doc-license|
-   |  |SHIELD:svg:pySVModel-tag| |SHIELD:svg:pySVModel-release| |SHIELD:svg:pySVModel-date| 
    |  |SHIELD:svg:pySVModel-pypi-tag| |SHIELD:svg:pySVModel-pypi-status| |SHIELD:svg:pySVModel-pypi-python| |SHIELD:svg:pySVModel-lib-status| 
    |  |SHIELD:svg:pySVModel-gha-test| |SHIELD:svg:pySVModel-codacy-quality| |SHIELD:svg:pySVModel-codacy-coverage| |SHIELD:svg:pySVModel-codecov-coverage|
 
@@ -25,7 +24,6 @@
 .. only:: latex
 
    |SHIELD:png:pySVModel-github| |SHIELD:png:pySVModel-src-license| |SHIELD:png:pySVModel-ghp-doc| |SHIELD:png:pySVModel-doc-license| 
-   |SHIELD:png:pySVModel-tag| |SHIELD:png:pySVModel-release| |SHIELD:png:pySVModel-date| 
    |SHIELD:png:pySVModel-pypi-tag| |SHIELD:png:pySVModel-pypi-status| |SHIELD:png:pySVModel-pypi-python| |SHIELD:png:pySVModel-lib-status| 
    |SHIELD:png:pySVModel-gha-test| |SHIELD:png:pySVModel-codacy-quality| |SHIELD:png:pySVModel-codacy-coverage| |SHIELD:png:pySVModel-codecov-coverage|
 
