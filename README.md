@@ -17,11 +17,11 @@
 [![Codacy - Quality](https://img.shields.io/codacy/grade/39d312bf98244961975559f141c3e000?longCache=true&style=flat-square&logo=Codacy)](https://app.codacy.com/gh/edaa-org/pySVModel)
 [![Codacy - Coverage](https://img.shields.io/codacy/coverage/39d312bf98244961975559f141c3e000?longCache=true&style=flat-square&logo=Codacy)](https://app.codacy.com/gh/edaa-org/pySVModel)
 [![Codecov - Branch Coverage](https://img.shields.io/codecov/c/github/edaa-org/pySVModel?longCache=true&style=flat-square&logo=Codecov)](https://codecov.io/gh/edaa-org/pySVModel)
-[![Libraries.io SourceRank](https://img.shields.io/librariesio/sourcerank/pypi/pySVModel?longCache=true&style=flat-square&)](https://libraries.io/github/edaa-org/pySVModel/sourcerank)  
 
 <!--
 [![Dependent repos (via libraries.io)](https://img.shields.io/librariesio/dependent-repos/pypi/pySVModel?longCache=true&style=flat-square&logo=GitHub)](https://github.com/edaa-org/pySVModel/network/dependents)
 [![Requires.io](https://img.shields.io/requires/github/edaa-org/pySVModel?longCache=true&style=flat-square)](https://requires.io/github/EDAA-ORG/pySVModel/requirements/?branch=main)
+[![Libraries.io SourceRank](https://img.shields.io/librariesio/sourcerank/pypi/pySVModel?longCache=true&style=flat-square&)](https://libraries.io/github/edaa-org/pySVModel/sourcerank)
 -->
 
 An abstract language model of SystemVerilog (incl. Verilog) written in Python.
