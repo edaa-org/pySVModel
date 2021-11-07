@@ -64,11 +64,11 @@
    :target: https://github.com/edaa-org/pySVModel/network/dependents
 
 .. # GHA test and coverage
-.. |SHIELD:svg:pySVModel-gha-test| image:: https://img.shields.io/github/workflow/status/edaa-org/pySVModel/Test%20and%20Coverage?label=Build%20and%20Test&logo=GitHub%20Actions&logoColor=FFFFFF
+.. |SHIELD:svg:pySVModel-gha-test| image:: https://img.shields.io/github/workflow/status/edaa-org/pySVModel/Unit%20Testing,%20Coverage%20Collection,%20Package,%20Release,%20Documentation%20and%20Publish?label=Build%20and%20Test&logo=GitHub%20Actions&logoColor=FFFFFF
    :alt: GitHub Workflow - Build and Test Status
    :height: 22
    :target: https://github.com/edaa-org/pySVModel/actions?query=workflow%3A%22Test+and+Coverage%22
-.. |SHIELD:png:pySVModel-gha-test| image:: https://img.shields.io/github/workflow/status/edaa-org/pySVModel/Test%20and%20Coverage?label=Build%20and%20Test&logo=GitHub%20Actions&logoColor=FFFFFF
+.. |SHIELD:png:pySVModel-gha-test| image:: https://img.shields.io/github/workflow/status/edaa-org/pySVModel/Unit%20Testing,%20Coverage%20Collection,%20Package,%20Release,%20Documentation%20and%20Publish?label=Build%20and%20Test&logo=GitHub%20Actions&logoColor=FFFFFF
    :alt: GitHub Workflow - Build and Test Status
    :height: 22
    :target: https://github.com/edaa-org/pySVModel/actions?query=workflow%3A%22Test+and+Coverage%22
@@ -124,28 +124,28 @@
    :target: https://github.com/edaa-org/pySVModel/actions?query=workflow%3A%22Release%22
 
 .. # PyPI tag
-.. |SHIELD:svg:pySVModel-pypi-tag| image:: https://img.shields.io/pypi/v/pySVModel?logo=PyPI
+.. |SHIELD:svg:pySVModel-pypi-tag| image:: https://img.shields.io/pypi/v/pySVModel?logo=PyPI&logoColor=FBE072
    :alt: PyPI - Tag
    :height: 22
    :target: https://pypi.org/project/pySVModel/
-.. |SHIELD:png:pySVModel-pypi-tag| image:: https://raster.shields.io/pypi/v/pySVModel?logo=PyPI
+.. |SHIELD:png:pySVModel-pypi-tag| image:: https://raster.shields.io/pypi/v/pySVModel?logo=PyPI&logoColor=FBE072
    :alt: PyPI - Tag
    :height: 22
    :target: https://pypi.org/project/pySVModel/
 
 .. # PyPI project status
-.. |SHIELD:svg:pySVModel-pypi-status| image:: https://img.shields.io/pypi/status/pySVModel?logo=PyPI
+.. |SHIELD:svg:pySVModel-pypi-status| image:: https://img.shields.io/pypi/status/pySVModel?logo=PyPI&logoColor=FBE072
    :alt: PyPI - Status
    :height: 22
-.. |SHIELD:png:pySVModel-pypi-status| image:: https://raster.shields.io/pypi/status/pySVModel?logo=PyPI
+.. |SHIELD:png:pySVModel-pypi-status| image:: https://raster.shields.io/pypi/status/pySVModel?logo=PyPI&logoColor=FBE072
    :alt: PyPI - Status
    :height: 22
 
 .. # PyPI Python versions
-.. |SHIELD:svg:pySVModel-pypi-python| image:: https://img.shields.io/pypi/pyversions/pySVModel?logo=PyPI
+.. |SHIELD:svg:pySVModel-pypi-python| image:: https://img.shields.io/pypi/pyversions/pySVModel?logo=PyPI&logoColor=FBE072
    :alt: PyPI - Python Version
    :height: 22
-.. |SHIELD:png:pySVModel-pypi-python| image:: https://raster.shields.io/pypi/pyversions/pySVModel?logo=PyPI
+.. |SHIELD:png:pySVModel-pypi-python| image:: https://raster.shields.io/pypi/pyversions/pySVModel?logo=PyPI&logoColor=FBE072
    :alt: PyPI - Python Version
    :height: 22
 
