@@ -113,16 +113,6 @@
    :height: 22
    :target: https://libraries.io/github/edaa-org/pySVModel/sourcerank
 
-.. # GHA release
-.. |SHIELD:svg:pySVModel-gha-release| image:: https://img.shields.io/github/workflow/status/edaa-org/pySVModel/Release?longCache=true&style=flat-square&label=release&logo=GitHub%20Actions&logoColor=FFFFFF
-   :alt: GitHub Workflow - Release Status
-   :height: 22
-   :target: https://github.com/edaa-org/pySVModel/actions?query=workflow%3A%22Release%22
-.. |SHIELD:png:pySVModel-gha-release| image:: https://img.shields.io/github/workflow/status/edaa-org/pySVModel/Release?longCache=true&style=flat-square&label=release&logo=GitHub%20Actions&logoColor=FFFFFF
-   :alt: GitHub Workflow - Release Status
-   :height: 22
-   :target: https://github.com/edaa-org/pySVModel/actions?query=workflow%3A%22Release%22
-
 .. # PyPI tag
 .. |SHIELD:svg:pySVModel-pypi-tag| image:: https://img.shields.io/pypi/v/pySVModel?longCache=true&style=flat-square&logo=PyPI&logoColor=FBE072
    :alt: PyPI - Tag
@@ -168,16 +158,6 @@
    :alt: Requires.io
    :height: 22
    :target: https://requires.io/github/edaa-org/pySVModel/requirements/?branch=main
-
-.. # GHA - documentation
-.. |SHIELD:svg:pySVModel-gha-doc| image:: https://img.shields.io/github/workflow/status/edaa-org/pySVModel/Documentation?longCache=true&style=flat-square&label=Documentation&logo=GitHub%20Actions&logoColor=FFFFFF
-   :alt: GitHub Workflow - Documentation Status
-   :height: 22
-   :target: https://github.com/edaa-org/pySVModel/actions?query=workflow%3A%22Documentation%22
-.. |SHIELD:png:pySVModel-gha-doc| image:: https://img.shields.io/github/workflow/status/edaa-org/pySVModel/Documentation?longCache=true&style=flat-square&label=Documentation&logo=GitHub%20Actions&logoColor=FFFFFF
-   :alt: GitHub Workflow - Documentation Status
-   :height: 22
-   :target: https://github.com/edaa-org/pySVModel/actions?query=workflow%3A%22Documentation%22
 
 .. # Documentation license
 .. |SHIELD:svg:pySVModel-doc-license| image:: https://img.shields.io/badge/doc%20license-CC--BY%204.0-green?longCache=true&style=flat-square
