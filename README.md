@@ -1,3 +1,8 @@
+<p align="center">
+  <a title="edaa-org.github.io/pySVModel" href="https://edaa-org.github.io/pySVModel"><img height="80px" src="doc/_static/logo.svg"/></a>
+</p>
+
+
 [![Sourcecode on GitHub](https://img.shields.io/badge/edaa--org-pySVModel-323131.svg?logo=github&longCache=true)](https://github.com/edaa-org/pySVModel)
 [![Sourcecode License](https://img.shields.io/pypi/l/pySVModel?logo=GitHub&label=code%20license)](LICENSE.md)
 [![GitHub tag (latest SemVer incl. pre-release)](https://img.shields.io/github/v/tag/edaa-org/pySVModel?logo=GitHub&include_prereleases)](https://github.com/edaa-org/pySVModel/tags)
@@ -20,10 +25,6 @@
 [![Documentation - Read Now!](https://img.shields.io/badge/doc-read%20now%20%E2%9E%94-blueviolet)](https://edaa-org.github.io/pySVModel/)
 
 An abstract language model of SystemVerilog (incl. Verilog) written in Python.
-
-<p align="center">
-  <a title="edaa-org.github.io/pySVModel" href="https://edaa-org.github.io/pySVModel"><img height="80px" src="doc/_static/logo.svg"/></a>
-</p>
 
 
 ## Main Goals
