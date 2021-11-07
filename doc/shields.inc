@@ -64,11 +64,11 @@
    :target: https://github.com/edaa-org/pySVModel/network/dependents
 
 .. # GHA test and coverage
-.. |SHIELD:svg:pySVModel-gha-test| image:: https://img.shields.io/github/workflow/status/edaa-org/pySVModel/Unit%20Testing,%20Coverage%20Collection,%20Package,%20Release,%20Documentation%20and%20Publish?longCache=true&style=flat-square&label=Build%20and%20Test&logo=GitHub%20Actions&logoColor=FFFFFF
+.. |SHIELD:svg:pySVModel-gha-test| image:: https://img.shields.io/github/workflow/status/edaa-org/pySVModel/Unit%20Testing,%20Coverage%20Collection,%20Package,%20Release,%20Documentation%20and%20Publish/main?longCache=true&style=flat-square&label=Build%20and%20Test&logo=GitHub%20Actions&logoColor=FFFFFF
    :alt: GitHub Workflow - Build and Test Status
    :height: 22
    :target: https://github.com/edaa-org/pySVModel/actions?query=workflow%3A%22Test+and+Coverage%22
-.. |SHIELD:png:pySVModel-gha-test| image:: https://img.shields.io/github/workflow/status/edaa-org/pySVModel/Unit%20Testing,%20Coverage%20Collection,%20Package,%20Release,%20Documentation%20and%20Publish?longCache=true&style=flat-square&label=Build%20and%20Test&logo=GitHub%20Actions&logoColor=FFFFFF
+.. |SHIELD:png:pySVModel-gha-test| image:: https://img.shields.io/github/workflow/status/edaa-org/pySVModel/Unit%20Testing,%20Coverage%20Collection,%20Package,%20Release,%20Documentation%20and%20Publish/main?longCache=true&style=flat-square&label=Build%20and%20Test&logo=GitHub%20Actions&logoColor=FFFFFF
    :alt: GitHub Workflow - Build and Test Status
    :height: 22
    :target: https://github.com/edaa-org/pySVModel/actions?query=workflow%3A%22Test+and+Coverage%22
