@@ -22,7 +22,7 @@
 An abstract language model of SystemVerilog (incl. Verilog) written in Python.
 
 <p align="center">
-  <a title="edaa-org.github.io/pySVModel" href="https://edaa-org.github.io/pySVModel"><img width="500px" src="doc/_static/banner.svg"/></a>
+  <a title="edaa-org.github.io/pySVModel" href="https://edaa-org.github.io/pySVModel"><img height="80px" src="doc/_static/logo.svg"/></a>
 </p>
 
 

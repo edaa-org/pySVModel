@@ -4,6 +4,15 @@
 
    \part{Introduction}
 
+.. image:: _static/logo.svg
+   :height: 90 px
+   :align: center
+   :target: https://github.com/edaa-org/pySVModel
+
+.. raw:: html
+
+    <br>
+
 .. only:: html
 
    |  |SHIELD:svg:pySVModel-github| |SHIELD:svg:pySVModel-src-license| |SHIELD:svg:pySVModel-tag| |SHIELD:svg:pySVModel-release| |SHIELD:svg:pySVModel-date| |SHIELD:svg:pySVModel-lib-dep|
