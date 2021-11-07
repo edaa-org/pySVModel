@@ -4,11 +4,11 @@
    # percent encoding so that the URL is properly parsed.
 
 .. # Sourcecode link to GitHub
-.. |SHIELD:svg:pySVModel-github| image:: https://img.shields.io/badge/edaa--org-pySVModel-323131?longCache=true&style=flat-square&logo=github&longCache=true
+.. |SHIELD:svg:pySVModel-github| image:: https://img.shields.io/badge/pyEDAA-pySVModel-29b6f6.svg?longCache=true&style=flat-square&logo=GitHub&labelColor=0277bd
    :alt: Sourcecode on GitHub
    :height: 22
    :target: https://github.com/edaa-org/pySVModel
-.. |SHIELD:png:pySVModel-github| image:: https://raster.shields.io/badge/edaa--org-pySVModel-323131?longCache=true&style=flat-square&logo=github&longCache=true
+.. |SHIELD:png:pySVModel-github| image:: https://raster.shields.io/badge/pyEDAA-pySVModel-29b6f6.svg?longCache=true&style=flat-square&logo=GitHub&labelColor=0277bd
    :alt: Sourcecode on GitHub
    :height: 22
    :target: https://github.com/edaa-org/pySVModel
@@ -164,17 +164,17 @@
    :alt: Documentation License
    :height: 22
    :target: Doc-License.html
-.. |SHIELD:png:pySVModel-doc-license| image:: https://img.shields.io/badge/doc%20license-CC--BY%204.0-green?longCache=true&style=flat-square
+.. |SHIELD:png:pySVModel-doc-license| image:: https://raster.shields.io/badge/doc%20license-CC--BY%204.0-green?longCache=true&style=flat-square
    :alt: Documentation License
    :height: 22
    :target: https://github.com/edaa-org/pySVModel/blob/main/doc/Doc-License.rst
 
 .. # GHPages - read now
-.. |SHIELD:svg:pySVModel-ghp-doc| image:: https://img.shields.io/badge/doc-read%20now%20%E2%9E%94-blueviolet?longCache=true&style=flat-square
+.. |SHIELD:svg:pySVModel-ghp-doc| image:: https://img.shields.io/website?longCache=true&style=flat-square&label=edaa-org.github.io%2FpySVModel&logo=GitHub&logoColor=fff&up_color=blueviolet&up_message=Read%20now%20%E2%9E%9A&url=https%3A%2F%2Fedaa-org.github.io%2FpySVModel%2Findex.html
    :alt: Documentation - Read Now!
    :height: 22
    :target: https://edaa-org.github.io/pySVModel/
-.. |SHIELD:png:pySVModel-ghp-doc| image:: https://img.shields.io/badge/doc-read%20now%20%E2%9E%94-blueviolet?longCache=true&style=flat-square
+.. |SHIELD:png:pySVModel-ghp-doc| image:: https://raster.shields.io/website?longCache=true&style=flat-square&label=edaa-org.github.io%2FpySVModel&logo=GitHub&logoColor=fff&up_color=blueviolet&up_message=Read%20now%20%E2%9E%9A&url=https%3A%2F%2Fedaa-org.github.io%2FpySVModel%2Findex.html
    :alt: Documentation - Read Now!
    :height: 22
    :target: https://edaa-org.github.io/pySVModel/
