@@ -17,7 +17,7 @@
 .. |SHIELD:svg:pySVModel-src-license| image:: https://img.shields.io/pypi/l/pySVModel?longCache=true&style=flat-square&logo=Apache&label=code%20license
    :alt: Code license
    :height: 22
-   :target: Code-License.html
+   :target: License.html
 .. |SHIELD:png:pySVModel-src-license| image:: https://img.shields.io/pypi/l/pySVModel?longCache=true&style=flat-square&logo=Apache&label=code%20license
    :alt: Code license
    :height: 22
