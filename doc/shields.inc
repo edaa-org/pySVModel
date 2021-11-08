@@ -14,11 +14,11 @@
    :target: https://github.com/edaa-org/pySVModel
 
 .. # Sourcecode license
-.. |SHIELD:svg:pySVModel-src-license| image:: https://img.shields.io/pypi/l/pySVModel?longCache=true&style=flat-square&logo=GitHub&label=code%20license
+.. |SHIELD:svg:pySVModel-src-license| image:: https://img.shields.io/pypi/l/pySVModel?longCache=true&style=flat-square&logo=Apache&label=code%20license
    :alt: Code license
    :height: 22
    :target: Code-License.html
-.. |SHIELD:png:pySVModel-src-license| image:: https://img.shields.io/pypi/l/pySVModel?longCache=true&style=flat-square&logo=GitHub&label=code%20license
+.. |SHIELD:png:pySVModel-src-license| image:: https://img.shields.io/pypi/l/pySVModel?longCache=true&style=flat-square&logo=Apache&label=code%20license
    :alt: Code license
    :height: 22
    :target: https://github.com/edaa-org/pySVModel/blob/main/LICENSE.md
@@ -54,11 +54,11 @@
    :target: https://github.com/edaa-org/pySVModel/releases
 
 .. # GitHub/Libraries dependent projects
-.. |SHIELD:svg:pySVModel-lib-dep| image:: https://img.shields.io/librariesio/dependent-repos/pypi/pySVModel?longCache=true&style=flat-square&
+.. |SHIELD:svg:pySVModel-lib-dep| image:: https://img.shields.io/librariesio/dependent-repos/pypi/pySVModel?longCache=true&style=flat-square&logo=Libraries.io&logoColor=fff
    :alt: Dependent repos (via libraries.io)
    :height: 22
    :target: https://github.com/edaa-org/pySVModel/network/dependents
-.. |SHIELD:png:pySVModel-lib-dep| image:: https://raster.shields.io/librariesio/dependent-repos/pypi/pySVModel?longCache=true&style=flat-square&
+.. |SHIELD:png:pySVModel-lib-dep| image:: https://raster.shields.io/librariesio/dependent-repos/pypi/pySVModel?longCache=true&style=flat-square&logo=Libraries.io&logoColor=fff
    :alt: Dependent repos (via libraries.io)
    :height: 22
    :target: https://github.com/edaa-org/pySVModel/network/dependents
@@ -94,21 +94,21 @@
    :target: https://www.codacy.com/gh/edaa-org/pySVModel
 
 .. # Codecov - coverage
-.. |SHIELD:svg:pySVModel-codecov-coverage| image:: https://img.shields.io/codecov/c/github/edaa-org/pySVModel?longCache=true&style=flat-square
+.. |SHIELD:svg:pySVModel-codecov-coverage| image:: https://img.shields.io/codecov/c/github/edaa-org/pySVModel?longCache=true&style=flat-square&logo=Codecov
    :alt: Codecov - Branch Coverage
    :height: 22
    :target: https://codecov.io/gh/edaa-org/pySVModel
-.. |SHIELD:png:pySVModel-codecov-coverage| image:: https://raster.shields.io/codecov/c/github/edaa-org/pySVModel?longCache=true&style=flat-square
+.. |SHIELD:png:pySVModel-codecov-coverage| image:: https://raster.shields.io/codecov/c/github/edaa-org/pySVModel?longCache=true&style=flat-square&logo=Codecov
    :alt: Codecov - Branch Coverage
    :height: 22
    :target: https://codecov.io/gh/edaa-org/pySVModel
 
 .. # Libraries - source rank
-.. |SHIELD:svg:pySVModel-lib-rank| image:: https://img.shields.io/librariesio/sourcerank/pypi/pySVModel?longCache=true&style=flat-square
+.. |SHIELD:svg:pySVModel-lib-rank| image:: https://img.shields.io/librariesio/sourcerank/pypi/pySVModel?longCache=true&style=flat-square&logo=Libraries.io&logoColor=fff
    :alt: Libraries.io SourceRank
    :height: 22
    :target: https://libraries.io/github/edaa-org/pySVModel/sourcerank
-.. |SHIELD:png:pySVModel-lib-rank| image:: https://raster.shields.io/librariesio/sourcerank/pypi/pySVModel?longCache=true&style=flat-square
+.. |SHIELD:png:pySVModel-lib-rank| image:: https://raster.shields.io/librariesio/sourcerank/pypi/pySVModel?longCache=true&style=flat-square&logo=Libraries.io&logoColor=fff
    :alt: Libraries.io SourceRank
    :height: 22
    :target: https://libraries.io/github/edaa-org/pySVModel/sourcerank
@@ -140,11 +140,11 @@
    :height: 22
 
 .. # Libraries - status
-.. |SHIELD:svg:pySVModel-lib-status| image:: https://img.shields.io/librariesio/release/pypi/pySVModel?longCache=true&style=flat-square
+.. |SHIELD:svg:pySVModel-lib-status| image:: https://img.shields.io/librariesio/release/pypi/pySVModel?longCache=true&style=flat-square&logo=Libraries.io&logoColor=fff
    :alt: Libraries.io status for latest release
    :height: 22
    :target: https://libraries.io/github/edaa-org/pySVModel
-.. |SHIELD:png:pySVModel-lib-status| image:: https://raster.shields.io/librariesio/release/pypi/pySVModel?longCache=true&style=flat-square
+.. |SHIELD:png:pySVModel-lib-status| image:: https://raster.shields.io/librariesio/release/pypi/pySVModel?longCache=true&style=flat-square&logo=Libraries.io&logoColor=fff
    :alt: Libraries.io status for latest release
    :height: 22
    :target: https://libraries.io/github/edaa-org/pySVModel
@@ -160,11 +160,11 @@
    :target: https://requires.io/github/edaa-org/pySVModel/requirements/?branch=main
 
 .. # Documentation license
-.. |SHIELD:svg:pySVModel-doc-license| image:: https://img.shields.io/badge/doc%20license-CC--BY%204.0-green?longCache=true&style=flat-square
+.. |SHIELD:svg:pySVModel-doc-license| image:: https://img.shields.io/badge/doc%20license-CC--BY%204.0-green?longCache=true&style=flat-square&logo=CreativeCommons&logoColor=fff
    :alt: Documentation License
    :height: 22
    :target: Doc-License.html
-.. |SHIELD:png:pySVModel-doc-license| image:: https://raster.shields.io/badge/doc%20license-CC--BY%204.0-green?longCache=true&style=flat-square
+.. |SHIELD:png:pySVModel-doc-license| image:: https://raster.shields.io/badge/doc%20license-CC--BY%204.0-green?longCache=true&style=flat-square&logo=CreativeCommons&logoColor=fff
    :alt: Documentation License
    :height: 22
    :target: https://github.com/edaa-org/pySVModel/blob/main/doc/Doc-License.rst

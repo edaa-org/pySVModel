@@ -3,13 +3,13 @@
 </p>
 
 [![Sourcecode on GitHub](https://img.shields.io/badge/pyEDAA-pySVModel-29b6f6.svg?longCache=true&style=flat-square&logo=GitHub&labelColor=0277bd)](https://github.com/edaa-org/pySVModel)
-[![Sourcecode License](https://img.shields.io/pypi/l/pySVModel?longCache=true&style=flat-square&logo=GitHub&label=code%20license)](LICENSE.md)
+[![Sourcecode License](https://img.shields.io/pypi/l/pySVModel?longCache=true&style=flat-square&logo=Apache&label=code%20license)](LICENSE.md)
 [![Documentation](https://img.shields.io/website?longCache=true&style=flat-square&label=edaa-org.github.io%2FpySVModel&logo=GitHub&logoColor=fff&up_color=blueviolet&up_message=Read%20now%20%E2%9E%9A&url=https%3A%2F%2Fedaa-org.github.io%2FpySVModel%2Findex.html)](https://edaa-org.github.io/pySVModel/)
-[![Documentation License](https://img.shields.io/badge/doc%20license-CC--BY%204.0-green?longCache=true&style=flat-square&)](LICENSE.md)  
+[![Documentation License](https://img.shields.io/badge/doc%20license-CC--BY%204.0-green?longCache=true&style=flat-square&logo=CreativeCommons&logoColor=fff)](LICENSE.md)  
 [![PyPI](https://img.shields.io/pypi/v/pySVModel?longCache=true&style=flat-square&logo=PyPI&logoColor=FBE072)](https://pypi.org/project/pySVModel/)
 ![PyPI - Status](https://img.shields.io/pypi/status/pySVModel?longCache=true&style=flat-square&logo=PyPI&logoColor=FBE072)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pySVModel?longCache=true&style=flat-square&logo=PyPI&logoColor=FBE072)
-[![Libraries.io status for latest release](https://img.shields.io/librariesio/release/pypi/pySVModel?longCache=true&style=flat-square&)](https://libraries.io/github/edaa-org/pySVModel)  
+[![Libraries.io status for latest release](https://img.shields.io/librariesio/release/pypi/pySVModel?longCache=true&style=flat-square&logo=Libraries.io&logoColor=fff)](https://libraries.io/github/edaa-org/pySVModel)  
 [![GitHub Workflow - Build and Test Status](https://img.shields.io/github/workflow/status/edaa-org/pySVModel/Unit%20Testing,%20Coverage%20Collection,%20Package,%20Release,%20Documentation%20and%20Publish/main?longCache=true&style=flat-square&label=Build%20and%20Test&logo=GitHub%20Actions&logoColor=FFFFFF)](https://github.com/edaa-org/pySVModel/actions?query=workflow%3A%22Pipeline%22)
 [![Codacy - Quality](https://img.shields.io/codacy/grade/39d312bf98244961975559f141c3e000?longCache=true&style=flat-square&logo=Codacy)](https://app.codacy.com/gh/edaa-org/pySVModel)
 [![Codacy - Coverage](https://img.shields.io/codacy/coverage/39d312bf98244961975559f141c3e000?longCache=true&style=flat-square&logo=Codacy)](https://app.codacy.com/gh/edaa-org/pySVModel)
@@ -18,7 +18,7 @@
 <!--
 [![Dependent repos (via libraries.io)](https://img.shields.io/librariesio/dependent-repos/pypi/pySVModel?longCache=true&style=flat-square&logo=GitHub)](https://github.com/edaa-org/pySVModel/network/dependents)
 [![Requires.io](https://img.shields.io/requires/github/edaa-org/pySVModel?longCache=true&style=flat-square)](https://requires.io/github/EDAA-ORG/pySVModel/requirements/?branch=main)
-[![Libraries.io SourceRank](https://img.shields.io/librariesio/sourcerank/pypi/pySVModel?longCache=true&style=flat-square&)](https://libraries.io/github/edaa-org/pySVModel/sourcerank)
+[![Libraries.io SourceRank](https://img.shields.io/librariesio/sourcerank/pypi/pySVModel?longCache=true&style=flat-square)](https://libraries.io/github/edaa-org/pySVModel/sourcerank)
 -->
 
 An abstract language model of SystemVerilog (incl. Verilog) written in Python.
