@@ -39,6 +39,8 @@ and services on such a model, while supporting multiple frontends.
 
 ### pySVModel Generators
 
+* See [#11: Interfacing Surelog/UHDM](https://github.com/edaa-org/pySVModel/issues/11)
+
 *TBD*
 
 ### pySVModel Consumers
