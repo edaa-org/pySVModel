@@ -43,6 +43,8 @@ and services on such a model, while supporting multiple frontends.
 
 ### pySVModel Consumers
 
+* [Electronic Design Automation Abstraction (EDA²)](https://edaa-org.github.io/)
+
 *TBD*
 
 ## Examples
