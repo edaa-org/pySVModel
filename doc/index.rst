@@ -104,6 +104,10 @@ License
 
    This document was generated on |docdate|.
 
+.. toctree::
+   :hidden:
+
+   Used as a layer of EDA² ➚ <https://edaa-org.github.io/>
 
 .. toctree::
    :caption: Introduction
