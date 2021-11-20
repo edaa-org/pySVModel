@@ -1,10 +1,10 @@
 # =============================================================================
-#              ____            _              __     __        _ _             __  __           _      _
-#  _ __  _   _/ ___| _   _ ___| |_ ___ _ __ __\ \   / /__ _ __(_) | ___   __ _|  \/  | ___   __| | ___| |
-# | '_ \| | | \___ \| | | / __| __/ _ \ '_ ` _ \ \ / / _ \ '__| | |/ _ \ / _` | |\/| |/ _ \ / _` |/ _ \ |
-# | |_) | |_| |___) | |_| \__ \ ||  __/ | | | | \ V /  __/ |  | | | (_) | (_| | |  | | (_) | (_| |  __/ |
-# | .__/ \__, |____/ \__, |___/\__\___|_| |_| |_|\_/ \___|_|  |_|_|\___/ \__, |_|  |_|\___/ \__,_|\___|_|
-# |_|    |___/       |___/                                               |___/
+#              ______     ____  __           _      _
+#  _ __  _   _/ ___\ \   / /  \/  | ___   __| | ___| |
+# | '_ \| | | \___ \\ \ / /| |\/| |/ _ \ / _` |/ _ \ |
+# | |_) | |_| |___) |\ V / | |  | | (_) | (_| |  __/ |
+# | .__/ \__, |____/  \_/  |_|  |_|\___/ \__,_|\___|_|
+# |_|    |___/
 # ==============================================================================
 # Authors:            Patrick Lehmann
 #
@@ -30,10 +30,15 @@
 # ============================================================================
 #
 from pathlib    import Path
-from setuptools import setup as setuptools_setup, find_packages as setuptools_find_packages
+from setuptools import (
+	setup as setuptools_setup,
+	find_packages as setuptools_find_packages
+)
 
-gitHubNamespace = "edaa-org"
-projectName =     "pySVModel"
+gitHubNamespace =       "edaa-org"
+projectName =           "pySVModel"
+projectNameWithPrefix = projectName
+version =               "0.3.1"
 
 # Read README for upload to PyPI
 readmeFile = Path("README.md")
@@ -46,13 +51,13 @@ with requirementsFile.open("r") as file:
 	requirements = [line for line in file.readlines()]
 
 # Derive URLs
-sourceCodeURL =     "https://github.com/{namespace}/{projectName}".format(namespace=gitHubNamespace, projectName=projectName)
-documentationURL =  "https://{namespace}.github.io/{projectName}".format(namespace=gitHubNamespace, projectName=projectName)
+sourceCodeURL =     f"https://github.com/{gitHubNamespace}/{projectName}"
+documentationURL =  f"https://{gitHubNamespace}.github.io/{projectName}"
 
 # Assemble all package information
 setuptools_setup(
 	name=projectName,
-	version="0.3.1",
+	version=version,
 
 	author="Patrick Lehmann",
 	author_email="Paebbels@gmail.com",
@@ -66,9 +71,9 @@ setuptools_setup(
 
 	url=sourceCodeURL,
 	project_urls={
-		'Documentation': documentationURL,
-		'Source Code':   sourceCodeURL,
-		'Issue Tracker': sourceCodeURL + "/issues"
+		'Documentation': f"{documentationURL}",
+		'Source Code':   f"{sourceCodeURL}",
+		'Issue Tracker': f"{sourceCodeURL}/issues"
 	},
 	# download_url="https://github.com/edaa-org/pySVModel/tarball/0.1.0",
 
@@ -81,6 +86,7 @@ setuptools_setup(
 		"Programming Language :: Python :: 3.7",
 		"Programming Language :: Python :: 3.8",
 		"Programming Language :: Python :: 3.9",
+		"Programming Language :: Python :: 3.10",
    "Development Status :: 3 - Alpha",
 #   "Development Status :: 4 - Beta",
 #		"Development Status :: 5 - Production/Stable",
