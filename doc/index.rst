@@ -15,16 +15,16 @@
 
 .. only:: html
 
-   |  |SHIELD:svg:pySVModel-github| |SHIELD:svg:pySVModel-src-license| |SHIELD:svg:pySVModel-ghp-doc| |SHIELD:svg:pySVModel-doc-license|
-   |  |SHIELD:svg:pySVModel-gitter| |SHIELD:svg:pySVModel-pypi-tag| |SHIELD:svg:pySVModel-pypi-status| |SHIELD:svg:pySVModel-pypi-python| 
+   |  |SHIELD:svg:pySVModel-github| |SHIELD:svg:pySVModel-src-license| |SHIELD:svg:pySVModel-ghp-doc| |SHIELD:svg:pySVModel-doc-license| |SHIELD:svg:pySVModel-gitter|
+   |  |SHIELD:svg:pySVModel-pypi-tag| |SHIELD:svg:pySVModel-pypi-status| |SHIELD:svg:pySVModel-pypi-python| 
    |  |SHIELD:svg:pySVModel-gha-test| |SHIELD:svg:pySVModel-lib-status| |SHIELD:svg:pySVModel-codacy-quality| |SHIELD:svg:pySVModel-codacy-coverage| |SHIELD:svg:pySVModel-codecov-coverage|
 
 .. Disabled shields: |SHIELD:svg:pySVModel-lib-dep| |SHIELD:svg:pySVModel-req-status| |SHIELD:svg:pySVModel-lib-rank|
 
 .. only:: latex
 
-   |SHIELD:png:pySVModel-github| |SHIELD:png:pySVModel-src-license| |SHIELD:png:pySVModel-ghp-doc| |SHIELD:png:pySVModel-doc-license| 
-   |SHIELD:png:pySVModel-gitter| |SHIELD:png:pySVModel-pypi-tag| |SHIELD:png:pySVModel-pypi-status| |SHIELD:png:pySVModel-pypi-python| 
+   |SHIELD:png:pySVModel-github| |SHIELD:png:pySVModel-src-license| |SHIELD:png:pySVModel-ghp-doc| |SHIELD:png:pySVModel-doc-license| |SHIELD:png:pySVModel-gitter|
+   |SHIELD:png:pySVModel-pypi-tag| |SHIELD:png:pySVModel-pypi-status| |SHIELD:png:pySVModel-pypi-python| 
    |SHIELD:png:pySVModel-gha-test| |SHIELD:png:pySVModel-lib-status| |SHIELD:png:pySVModel-codacy-quality| |SHIELD:png:pySVModel-codacy-coverage| |SHIELD:png:pySVModel-codecov-coverage|
 
 .. Disabled shields: |SHIELD:png:pySVModel-lib-dep| |SHIELD:png:pySVModel-req-status| |SHIELD:png:pySVModel-lib-rank|
