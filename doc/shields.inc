@@ -14,11 +14,11 @@
    :target: https://github.com/edaa-org/pySVModel
 
 .. # Sourcecode license
-.. |SHIELD:svg:pySVModel-src-license| image:: https://img.shields.io/pypi/l/pySVModel?longCache=true&style=flat-square&logo=Apache&label=code%20license
+.. |SHIELD:svg:pySVModel-src-license| image:: https://img.shields.io/pypi/l/pySVModel?longCache=true&style=flat-square&logo=Apache&label=code
    :alt: Code license
    :height: 22
    :target: License.html
-.. |SHIELD:png:pySVModel-src-license| image:: https://img.shields.io/pypi/l/pySVModel?longCache=true&style=flat-square&logo=Apache&label=code%20license
+.. |SHIELD:png:pySVModel-src-license| image:: https://img.shields.io/pypi/l/pySVModel?longCache=true&style=flat-square&logo=Apache&label=code
    :alt: Code license
    :height: 22
    :target: https://github.com/edaa-org/pySVModel/blob/main/LICENSE.md
@@ -160,11 +160,11 @@
    :target: https://requires.io/github/edaa-org/pySVModel/requirements/?branch=main
 
 .. # Documentation license
-.. |SHIELD:svg:pySVModel-doc-license| image:: https://img.shields.io/badge/doc%20license-CC--BY%204.0-green?longCache=true&style=flat-square&logo=CreativeCommons&logoColor=fff
+.. |SHIELD:svg:pySVModel-doc-license| image:: https://img.shields.io/badge/doc-CC--BY%204.0-green?longCache=true&style=flat-square&logo=CreativeCommons&logoColor=fff
    :alt: Documentation License
    :height: 22
    :target: Doc-License.html
-.. |SHIELD:png:pySVModel-doc-license| image:: https://raster.shields.io/badge/doc%20license-CC--BY%204.0-green?longCache=true&style=flat-square&logo=CreativeCommons&logoColor=fff
+.. |SHIELD:png:pySVModel-doc-license| image:: https://raster.shields.io/badge/doc-CC--BY%204.0-green?longCache=true&style=flat-square&logo=CreativeCommons&logoColor=fff
    :alt: Documentation License
    :height: 22
    :target: https://github.com/edaa-org/pySVModel/blob/main/doc/Doc-License.rst
