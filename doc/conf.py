@@ -2,15 +2,18 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 
-import sys
+from sys import path as sys_path
 from os.path import abspath
 from pathlib import Path
-from json    import dump, loads
+from json import loads
 
-sys.path.insert(0, abspath('.'))
-sys.path.insert(0, abspath('..'))
-sys.path.insert(0, abspath('../pySVModel'))
-#sys.path.insert(0, abspath('_extensions'))
+
+ROOT = Path(__file__).resolve().parent
+
+sys_path.insert(0, abspath('.'))
+sys_path.insert(0, abspath('..'))
+sys_path.insert(0, abspath('../pySVModel'))
+#sys_path.insert(0, abspath('_extensions'))
 
 
 # ==============================================================================
@@ -37,7 +40,7 @@ def _LatestTagName():
 
 # The full version, including alpha/beta/rc tags
 version = "0.3"     # The short X.Y version.
-release = "0.3.0"   # The full version, including alpha/beta/rc tags.
+release = "0.3.1"   # The full version, including alpha/beta/rc tags.
 try:
 	if _IsUnderGitControl:
 		latestTagName = _LatestTagName()[1:]		# remove prefix "v"
@@ -88,19 +91,22 @@ except Exception as ex:
 # ==============================================================================
 # Options for HTML output
 # ==============================================================================
-html_theme_options = {
-	'logo_only': True,
-	'home_breadcrumbs': True,
-	'vcs_pageview_mode': 'blob',
-}
 
 html_context = {}
-ctx = Path(__file__).resolve().parent / 'context.json'
+ctx = ROOT / 'context.json'
 if ctx.is_file():
 	html_context.update(loads(ctx.open('r').read()))
 
-html_theme_path = ["."]
-html_theme = "_theme"
+if (ROOT / "_theme").is_dir():
+	html_theme_path = ["."]
+	html_theme = "_theme"
+	html_theme_options = {
+		'logo_only': True,
+		'home_breadcrumbs': False,
+		'vcs_pageview_mode': 'blob',
+	}
+else:
+	html_theme = "alabaster"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -138,7 +144,7 @@ latex_elements = {
 		% ================================================================================
 		% Add more Unicode characters for pdfLaTeX.
 		% - Alternatively, compile with XeLaTeX or LuaLaTeX.
-		% - https://github.com/sphinx-doc/sphinx/issues/3511
+		% - https://GitHub.com/sphinx-doc/sphinx/issues/3511
 		%
 		\ifdefined\DeclareUnicodeCharacter
 			\DeclareUnicodeCharacter{2265}{$\geq$}
@@ -226,10 +232,10 @@ autodoc_member_order = "bysource"       # alphabetical, groupwise, bysource
 # Sphinx.Ext.ExtLinks
 # ==============================================================================
 extlinks = {
-	'issue': ('https://github.com/edaa-org/pySVModel/issues/%s', 'issue #'),
-	'pull':  ('https://github.com/edaa-org/pySVModel/pull/%s', 'pull request #'),
-	'src':   ('https://github.com/edaa-org/pySVModel/blob/main/pySVModel/%s?ts=2', None),
-#	'test':  ('https://github.com/edaa-org/pySVModel/blob/main/test/%s?ts=2', None)
+	'issue': ('https://GitHub.com/edaa-org/pySVModel/issues/%s', 'issue #'),
+	'pull':  ('https://GitHub.com/edaa-org/pySVModel/pull/%s', 'pull request #'),
+	'src':   ('https://GitHub.com/edaa-org/pySVModel/blob/main/pySVModel/%s?ts=2', None),
+#	'test':  ('https://GitHub.com/edaa-org/pySVModel/blob/main/test/%s?ts=2', None)
 }
 
 

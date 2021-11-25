@@ -42,10 +42,10 @@ An abstract SystemVerilog language model.
 from enum import unique, Enum
 from typing import Dict, Union
 
-from pydecor  import export
+from pyTooling.Decorators import export
 
 
-__version__ = "0.3.0"
+__version__ = "0.3.1"
 
 
 @export

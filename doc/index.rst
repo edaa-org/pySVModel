@@ -1,24 +1,33 @@
 .. include:: shields.inc
 
+.. image:: _static/logo.svg
+   :height: 90 px
+   :align: center
+   :target: https://GitHub.com/edaa-org/pySVModel
+
+.. raw:: html
+
+    <br>
+
 .. raw:: latex
 
    \part{Introduction}
 
 .. only:: html
 
-   |  |SHIELD:svg:pySVModel-github| |SHIELD:svg:pySVModel-src-license| |SHIELD:svg:pySVModel-tag| |SHIELD:svg:pySVModel-release| |SHIELD:svg:pySVModel-date| |SHIELD:svg:pySVModel-lib-dep|
-   |  |SHIELD:svg:pySVModel-gha-test| |SHIELD:svg:pySVModel-codacy-quality| |SHIELD:svg:pySVModel-codacy-coverage| |SHIELD:svg:pySVModel-codecov-coverage| |SHIELD:svg:pySVModel-lib-rank|
-   |  |SHIELD:svg:pySVModel-gha-release| |SHIELD:svg:pySVModel-pypi-tag| |SHIELD:svg:pySVModel-pypi-status| |SHIELD:svg:pySVModel-pypi-python| |SHIELD:svg:pySVModel-lib-status| |SHIELD:svg:pySVModel-req-status|
-   |  |SHIELD:svg:pySVModel-gha-doc| |SHIELD:svg:pySVModel-doc-license| |SHIELD:svg:pySVModel-ghp-doc|
+   |  |SHIELD:svg:pySVModel-github| |SHIELD:svg:pySVModel-src-license| |SHIELD:svg:pySVModel-ghp-doc| |SHIELD:svg:pySVModel-doc-license| |SHIELD:svg:pySVModel-gitter|
+   |  |SHIELD:svg:pySVModel-pypi-tag| |SHIELD:svg:pySVModel-pypi-status| |SHIELD:svg:pySVModel-pypi-python|
+   |  |SHIELD:svg:pySVModel-gha-test| |SHIELD:svg:pySVModel-lib-status| |SHIELD:svg:pySVModel-codacy-quality| |SHIELD:svg:pySVModel-codacy-coverage| |SHIELD:svg:pySVModel-codecov-coverage|
+
+.. Disabled shields: |SHIELD:svg:pySVModel-lib-dep| |SHIELD:svg:pySVModel-req-status| |SHIELD:svg:pySVModel-lib-rank|
 
 .. only:: latex
 
-   |SHIELD:png:pySVModel-github| |SHIELD:png:pySVModel-src-license| |SHIELD:png:pySVModel-tag| |SHIELD:png:pySVModel-release| |SHIELD:png:pySVModel-date| |SHIELD:png:pySVModel-lib-dep|
-   |SHIELD:png:pySVModel-gha-test| |SHIELD:png:pySVModel-codacy-quality| |SHIELD:png:pySVModel-codacy-coverage| |SHIELD:png:pySVModel-codecov-coverage| |SHIELD:png:pySVModel-lib-rank|
-   |SHIELD:png:pySVModel-gha-release| |SHIELD:png:pySVModel-pypi-tag| |SHIELD:png:pySVModel-pypi-status| |SHIELD:png:pySVModel-pypi-python| |SHIELD:png:pySVModel-lib-status| |SHIELD:png:pySVModel-req-status|
-   |SHIELD:png:pySVModel-gha-doc| |SHIELD:png:pySVModel-doc-license| |SHIELD:png:pySVModel-ghp-doc|
+   |SHIELD:png:pySVModel-github| |SHIELD:png:pySVModel-src-license| |SHIELD:png:pySVModel-ghp-doc| |SHIELD:png:pySVModel-doc-license| |SHIELD:png:pySVModel-gitter|
+   |SHIELD:png:pySVModel-pypi-tag| |SHIELD:png:pySVModel-pypi-status| |SHIELD:png:pySVModel-pypi-python|
+   |SHIELD:png:pySVModel-gha-test| |SHIELD:png:pySVModel-lib-status| |SHIELD:png:pySVModel-codacy-quality| |SHIELD:png:pySVModel-codacy-coverage| |SHIELD:png:pySVModel-codecov-coverage|
 
---------------------------------------------------------------------------------
+.. Disabled shields: |SHIELD:png:pySVModel-lib-dep| |SHIELD:png:pySVModel-req-status| |SHIELD:png:pySVModel-lib-rank|
 
 The pySVModel Documentation
 ###########################
@@ -47,7 +56,6 @@ Use Cases
 * TBD
 
 
-
 .. _news:
 
 News
@@ -70,9 +78,9 @@ News
 Contributors
 ************
 
-* `Patrick Lehmann <https://github.com/Paebbels>`__ (Maintainer)
-* `Unai Martinez-Corral <https://github.com/umarcor/>`__
-* `and more... <https://github.com/edaa-org/pySVModel/graphs/contributors>`__
+* `Patrick Lehmann <https://GitHub.com/Paebbels>`__ (Maintainer)
+* `Unai Martinez-Corral <https://GitHub.com/umarcor/>`__
+* `and more... <https://GitHub.com/edaa-org/pySVModel/graphs/contributors>`__
 
 
 License
@@ -96,6 +104,10 @@ License
 
    This document was generated on |docdate|.
 
+.. toctree::
+   :hidden:
+
+   Used as a layer of EDA² ➚ <https://edaa-org.github.io/>
 
 .. toctree::
    :caption: Introduction

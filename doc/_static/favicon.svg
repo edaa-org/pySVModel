@@ -1,78 +1,65 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="180mm"
-   height="180mm"
-   viewBox="0 0 179.99999 180.00001"
+   width="304"
+   height="304"
    version="1.1"
-   id="svg1679"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="favicon.svg">
+   id="svg18"
+   sodipodi:docname="favicon.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
   <defs
-     id="defs1673" />
+     id="defs22" />
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="358.8327"
-     inkscape:cy="340.66666"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     id="namedview20"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
      showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
+     inkscape:zoom="0.75245932"
+     inkscape:cx="731.60102"
+     inkscape:cy="152.1677"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="1072"
      inkscape:window-maximized="1"
-     showguides="false" />
-  <metadata
-     id="metadata1676">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(129.18123,-30.619849)">
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#29b6f6;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-40.129601"
-       y="98.083778"
-       id="text1065"><tspan
-         sodipodi:role="line"
-         x="-40.129601"
-         y="98.083778"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:88.19444275px;line-height:1;font-family:Teko;-inkscape-font-specification:'Teko Bold';text-align:center;text-anchor:middle;fill:#29b6f6;fill-opacity:1;stroke-width:0.26458332"
-         id="tspan1067">py</tspan><tspan
-         sodipodi:role="line"
-         x="-40.129601"
-         y="186.27823"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:88.19444275px;line-height:1;font-family:Teko;-inkscape-font-specification:'Teko Bold';text-align:center;text-anchor:middle;fill:#29b6f6;fill-opacity:1;stroke-width:0.26458332"
-         id="tspan1071">SV</tspan></text>
-  </g>
+     inkscape:current-layer="svg18"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <path
+     fill="none"
+     d="M 2,2 H 102 V 52 H 2 Z m 200,50 h 100 v 50 H 202 Z"
+     style="fill:#ffffff;fill-opacity:0;stroke:#29b6f6;stroke-width:4px"
+     id="path2" />
+  <path
+     d="m 2,102 h 100 v 50 H 2 Z"
+     style="fill:#29b6f6;fill-opacity:1;stroke:#29b6f6;stroke-width:4px"
+     id="path4" />
+  <path
+     fill="none"
+     d="m 202,152 h 100 v 50 H 202 Z M 2,202 h 100 v 50 H 2 Z m 200,50 h 100 v 50 H 202 Z"
+     style="fill:#ffffff;fill-opacity:0;stroke:#29b6f6;stroke-width:4px"
+     id="path6" />
+  <path
+     fill="none"
+     d="M 102,2 H 202 V 52 H 102 Z m 0,50 h 100 v 50 H 102 Z"
+     style="fill:#ffffff;fill-opacity:0;stroke:#0277bd;stroke-width:4px"
+     id="path8" />
+  <path
+     d="m 102,102 h 100 v 50 H 102 Z"
+     style="fill:#0277bd;fill-opacity:1;stroke:#0277bd;stroke-width:4px"
+     id="path10" />
+  <path
+     fill="none"
+     d="m 102,152 h 100 v 50 H 102 Z m 0,50 h 100 v 50 H 102 Z m 0,50 h 100 v 50 H 102 Z"
+     style="fill:#ffffff;fill-opacity:0;stroke:#0277bd;stroke-width:4px"
+     id="path12" />
 </svg>
