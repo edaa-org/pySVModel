@@ -77,7 +77,7 @@ setuptools_setup(
 	},
 	# download_url="https://github.com/edaa-org/pySVModel/tarball/0.1.0",
 
-	packages=setuptools_find_packages(exclude=["tests", "tests.*",]),
+	packages=setuptools_find_packages(exclude=["doc", "doc.*", "tests", "tests.*",]),
 	classifiers=[
 		"License :: OSI Approved :: Apache Software License",
 		"Operating System :: OS Independent",
