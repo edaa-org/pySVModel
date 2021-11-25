@@ -51,7 +51,7 @@ with requirementsFile.open("r") as file:
 	requirements = [line for line in file.readlines()]
 
 # Derive URLs
-sourceCodeURL =     f"https://github.com/{gitHubNamespace}/{projectName}"
+sourceCodeURL =     f"https://GitHub.com/{gitHubNamespace}/{projectName}"
 documentationURL =  f"https://{gitHubNamespace}.github.io/{projectName}"
 
 # Assemble all package information
@@ -75,9 +75,9 @@ setuptools_setup(
 		'Source Code':   f"{sourceCodeURL}",
 		'Issue Tracker': f"{sourceCodeURL}/issues"
 	},
-	# download_url="https://github.com/edaa-org/pySVModel/tarball/0.1.0",
+	# download_url="https://GitHub.com/edaa-org/pySVModel/tarball/0.1.0",
 
-	packages=setuptools_find_packages(exclude=["tests", "tests.*",]),
+	packages=setuptools_find_packages(exclude=["doc", "doc.*", "tests", "tests.*",]),
 	classifiers=[
 		"License :: OSI Approved :: Apache Software License",
 		"Operating System :: OS Independent",

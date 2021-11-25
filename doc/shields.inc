@@ -7,11 +7,11 @@
 .. |SHIELD:svg:pySVModel-github| image:: https://img.shields.io/badge/pyEDAA-pySVModel-29b6f6.svg?longCache=true&style=flat-square&logo=GitHub&labelColor=0277bd
    :alt: Sourcecode on GitHub
    :height: 22
-   :target: https://github.com/edaa-org/pySVModel
+   :target: https://GitHub.com/edaa-org/pySVModel
 .. |SHIELD:png:pySVModel-github| image:: https://raster.shields.io/badge/pyEDAA-pySVModel-29b6f6.svg?longCache=true&style=flat-square&logo=GitHub&labelColor=0277bd
    :alt: Sourcecode on GitHub
    :height: 22
-   :target: https://github.com/edaa-org/pySVModel
+   :target: https://GitHub.com/edaa-org/pySVModel
 
 .. # Sourcecode license
 .. |SHIELD:svg:pySVModel-src-license| image:: https://img.shields.io/pypi/l/pySVModel?longCache=true&style=flat-square&logo=Apache&label=code
@@ -21,57 +21,57 @@
 .. |SHIELD:png:pySVModel-src-license| image:: https://img.shields.io/pypi/l/pySVModel?longCache=true&style=flat-square&logo=Apache&label=code
    :alt: Code license
    :height: 22
-   :target: https://github.com/edaa-org/pySVModel/blob/main/LICENSE.md
+   :target: https://GitHub.com/edaa-org/pySVModel/blob/main/LICENSE.md
 
 .. # GitHub tag
 .. |SHIELD:svg:pySVModel-tag| image:: https://img.shields.io/github/v/tag/edaa-org/pySVModel?longCache=true&style=flat-square&logo=GitHub&include_prereleases
    :alt: GitHub tag (latest SemVer incl. pre-release
    :height: 22
-   :target: https://github.com/edaa-org/pySVModel/tags
+   :target: https://GitHub.com/edaa-org/pySVModel/tags
 .. |SHIELD:png:pySVModel-tag| image:: https://raster.shields.io/github/v/tag/edaa-org/pySVModel?longCache=true&style=flat-square&logo=GitHub&include_prereleases
    :alt: GitHub tag (latest SemVer incl. pre-release
    :height: 22
-   :target: https://github.com/edaa-org/pySVModel/tags
+   :target: https://GitHub.com/edaa-org/pySVModel/tags
 
 .. # GitHub release
 .. |SHIELD:svg:pySVModel-release| image:: https://img.shields.io/github/v/release/edaa-org/pySVModel?longCache=true&style=flat-square&logo=GitHub&include_prereleases
    :alt: GitHub release (latest SemVer incl. including pre-releases
    :height: 22
-   :target: https://github.com/edaa-org/pySVModel/releases/latest
+   :target: https://GitHub.com/edaa-org/pySVModel/releases/latest
 .. |SHIELD:png:pySVModel-release| image:: https://raster.shields.io/github/v/release/edaa-org/pySVModel?longCache=true&style=flat-square&logo=GitHub&include_prereleases
    :alt: GitHub release (latest SemVer incl. including pre-releases
    :height: 22
-   :target: https://github.com/edaa-org/pySVModel/releases/latest
+   :target: https://GitHub.com/edaa-org/pySVModel/releases/latest
 
 .. # GitHub release date
 .. |SHIELD:svg:pySVModel-date| image:: https://img.shields.io/github/release-date/edaa-org/pySVModel?longCache=true&style=flat-square&logo=GitHub
    :alt: GitHub release date
    :height: 22
-   :target: https://github.com/edaa-org/pySVModel/releases
+   :target: https://GitHub.com/edaa-org/pySVModel/releases
 .. |SHIELD:png:pySVModel-date| image:: https://raster.shields.io/github/release-date/edaa-org/pySVModel?logo=GitHub
    :alt: GitHub release date
    :height: 22
-   :target: https://github.com/edaa-org/pySVModel/releases
+   :target: https://GitHub.com/edaa-org/pySVModel/releases
 
 .. # GitHub/Libraries dependent projects
 .. |SHIELD:svg:pySVModel-lib-dep| image:: https://img.shields.io/librariesio/dependent-repos/pypi/pySVModel?longCache=true&style=flat-square&logo=Libraries.io&logoColor=fff
    :alt: Dependent repos (via libraries.io)
    :height: 22
-   :target: https://github.com/edaa-org/pySVModel/network/dependents
+   :target: https://GitHub.com/edaa-org/pySVModel/network/dependents
 .. |SHIELD:png:pySVModel-lib-dep| image:: https://raster.shields.io/librariesio/dependent-repos/pypi/pySVModel?longCache=true&style=flat-square&logo=Libraries.io&logoColor=fff
    :alt: Dependent repos (via libraries.io)
    :height: 22
-   :target: https://github.com/edaa-org/pySVModel/network/dependents
+   :target: https://GitHub.com/edaa-org/pySVModel/network/dependents
 
 .. # GHA test and coverage
 .. |SHIELD:svg:pySVModel-gha-test| image:: https://img.shields.io/github/workflow/status/edaa-org/pySVModel/Unit%20Testing,%20Coverage%20Collection,%20Package,%20Release,%20Documentation%20and%20Publish/main?longCache=true&style=flat-square&label=Build%20and%20Test&logo=GitHub%20Actions&logoColor=FFFFFF
    :alt: GitHub Workflow - Build and Test Status
    :height: 22
-   :target: https://github.com/edaa-org/pySVModel/actions?query=workflow%3A%22Test+and+Coverage%22
+   :target: https://GitHub.com/edaa-org/pySVModel/actions?query=workflow%3A%22Test+and+Coverage%22
 .. |SHIELD:png:pySVModel-gha-test| image:: https://img.shields.io/github/workflow/status/edaa-org/pySVModel/Unit%20Testing,%20Coverage%20Collection,%20Package,%20Release,%20Documentation%20and%20Publish/main?longCache=true&style=flat-square&label=Build%20and%20Test&logo=GitHub%20Actions&logoColor=FFFFFF
    :alt: GitHub Workflow - Build and Test Status
    :height: 22
-   :target: https://github.com/edaa-org/pySVModel/actions?query=workflow%3A%22Test+and+Coverage%22
+   :target: https://GitHub.com/edaa-org/pySVModel/actions?query=workflow%3A%22Test+and+Coverage%22
 
 .. # Codacy - quality
 .. |SHIELD:svg:pySVModel-codacy-quality| image:: https://img.shields.io/codacy/grade/39d312bf98244961975559f141c3e000?longCache=true&style=flat-square&logo=codacy
@@ -167,7 +167,7 @@
 .. |SHIELD:png:pySVModel-doc-license| image:: https://raster.shields.io/badge/doc-CC--BY%204.0-green?longCache=true&style=flat-square&logo=CreativeCommons&logoColor=fff
    :alt: Documentation License
    :height: 22
-   :target: https://github.com/edaa-org/pySVModel/blob/main/doc/Doc-License.rst
+   :target: https://GitHub.com/edaa-org/pySVModel/blob/main/doc/Doc-License.rst
 
 .. # GHPages - read now
 .. |SHIELD:svg:pySVModel-ghp-doc| image:: https://img.shields.io/website?longCache=true&style=flat-square&label=edaa-org.github.io%2FpySVModel&logo=GitHub&logoColor=fff&up_color=blueviolet&up_message=Read%20now%20%E2%9E%9A&url=https%3A%2F%2Fedaa-org.github.io%2FpySVModel%2Findex.html
@@ -179,7 +179,7 @@
    :height: 22
    :target: https://edaa-org.github.io/pySVModel/
 
-.. # Gitter 
+.. # Gitter
 .. |SHIELD:svg:pySVModel-gitter| image:: https://img.shields.io/badge/chat-on%20gitter-4db797.svg?longCache=true&style=flat-square&logo=gitter&logoColor=e8ecef
    :alt: Documentation License
    :height: 22

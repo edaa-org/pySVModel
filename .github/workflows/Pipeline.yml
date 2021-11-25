@@ -17,11 +17,11 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - {python: '3.6', icon: 🔴}   # until 23.12.2021
-          - {python: '3.7', icon: 🟠}  # until 27.06.2023
-          - {python: '3.8', icon: 🟡}  # until Oct. 2024
-          - {python: '3.9', icon: 🟢}  # until Oct. 2025
-          - {python: '3.10', icon: 🟢} # until Oct. 2026
+          - {python: "3.6",  icon: 🔴}  # until 23.12.2021
+          - {python: "3.7",  icon: 🟠}  # until 27.06.2023
+          - {python: "3.8",  icon: 🟡}  # until Oct. 2024
+          - {python: "3.9",  icon: 🟢}  # until Oct. 2025
+          - {python: "3.10", icon: 🟢}  # until Oct. 2026
 
     env:
       PYTHON: ${{ matrix.python }}
@@ -67,7 +67,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      PYTHON: '3.10'
+      PYTHON: "3.10"
     outputs:
       python: ${{ env.PYTHON }}
 
@@ -254,7 +254,7 @@ jobs:
 #    runs-on: ubuntu-latest
 #
 #    env:
-#      PYTHON: '3.10'
+#      PYTHON: "3.10"
 #    outputs:
 #      python: ${{ env.PYTHON }}
 #
@@ -272,7 +272,7 @@ jobs:
 #
 #      - name: 🐍 Install dependencies
 #        run: |
-#          pip3 install git+https://github.com/ghdl/ghdl.git@$(ghdl version hash)
+#          pip3 install git+https://GitHub.com/ghdl/ghdl.git@$(ghdl version hash)
 #
 #      - name: ✂ Extract code snippet from README
 #        shell: python

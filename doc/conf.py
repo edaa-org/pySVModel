@@ -144,7 +144,7 @@ latex_elements = {
 		% ================================================================================
 		% Add more Unicode characters for pdfLaTeX.
 		% - Alternatively, compile with XeLaTeX or LuaLaTeX.
-		% - https://github.com/sphinx-doc/sphinx/issues/3511
+		% - https://GitHub.com/sphinx-doc/sphinx/issues/3511
 		%
 		\ifdefined\DeclareUnicodeCharacter
 			\DeclareUnicodeCharacter{2265}{$\geq$}
@@ -232,10 +232,10 @@ autodoc_member_order = "bysource"       # alphabetical, groupwise, bysource
 # Sphinx.Ext.ExtLinks
 # ==============================================================================
 extlinks = {
-	'issue': ('https://github.com/edaa-org/pySVModel/issues/%s', 'issue #'),
-	'pull':  ('https://github.com/edaa-org/pySVModel/pull/%s', 'pull request #'),
-	'src':   ('https://github.com/edaa-org/pySVModel/blob/main/pySVModel/%s?ts=2', None),
-#	'test':  ('https://github.com/edaa-org/pySVModel/blob/main/test/%s?ts=2', None)
+	'issue': ('https://GitHub.com/edaa-org/pySVModel/issues/%s', 'issue #'),
+	'pull':  ('https://GitHub.com/edaa-org/pySVModel/pull/%s', 'pull request #'),
+	'src':   ('https://GitHub.com/edaa-org/pySVModel/blob/main/pySVModel/%s?ts=2', None),
+#	'test':  ('https://GitHub.com/edaa-org/pySVModel/blob/main/test/%s?ts=2', None)
 }
 
 
