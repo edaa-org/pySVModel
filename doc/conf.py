@@ -40,7 +40,7 @@ def _LatestTagName():
 
 # The full version, including alpha/beta/rc tags
 version = "0.3"     # The short X.Y version.
-release = "0.3.1"   # The full version, including alpha/beta/rc tags.
+release = "0.3.2"   # The full version, including alpha/beta/rc tags.
 try:
 	if _IsUnderGitControl:
 		latestTagName = _LatestTagName()[1:]		# remove prefix "v"

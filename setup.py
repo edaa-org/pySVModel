@@ -38,7 +38,7 @@ from setuptools import (
 gitHubNamespace =       "edaa-org"
 projectName =           "pySVModel"
 projectNameWithPrefix = projectName
-version =               "0.3.1"
+version =               "0.3.2"
 
 # Read README for upload to PyPI
 readmeFile = Path("README.md")
