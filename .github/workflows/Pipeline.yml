@@ -56,87 +56,22 @@ jobs:
     secrets:
       PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
 
-#  VerifyDocs:
-#    name: 👍 Verify example snippets using Python 3.10
-#    runs-on: ubuntu-latest
-#
-#    env:
-#      PYTHON: "3.10"
-#    outputs:
-#      python: ${{ env.PYTHON }}
-#
-#    steps:
-#      - name: ⏬ Checkout repository
-#        uses: actions/checkout@v2
-#
-#      - name: ⚙ Setup GHDL
-#        uses: ghdl/setup-ghdl-ci@master
-#
-#      - name: 🐍 Setup Python
-#        uses: actions/setup-python@v2
-#        with:
-#          python-version: ${{ env.PYTHON }}
-#
-#      - name: 🐍 Install dependencies
-#        run: |
-#          pip3 install git+https://GitHub.com/ghdl/ghdl.git@$(ghdl version hash)
-#
-#      - name: ✂ Extract code snippet from README
-#        shell: python
-#        run: |
-#          from pathlib import Path
-#          import re
-#
-#          ROOT = Path('.')
-#
-#          with (ROOT / 'README.md').open('r') as rptr:
-#              content = rptr.read()
-#
-#          m = re.search(r"```py(thon)?(?P<code>.*?)```", content, re.MULTILINE|re.DOTALL)
-#
-#          if m is None:
-#              raise Exception("Regular expression did not find the example in the README!")
-#
-#          with (ROOT / 'tests/docs/example.py').open('w') as wptr:
-#              wptr.write(m["code"])
-#
-##      - name: Print example.py
-##        run: cat tests/docs/example.py
-#
-#      - name: ☑ Run example snippet
-#        working-directory: tests/docs
-#        run: |
-#          python3 example.py
-
-
   BuildTheDocs:
-    name: 📓 Run BuildTheDocs and publish to GH-Pages
-    runs-on: ubuntu-latest
+    uses: pyTooling/Actions/.github/workflows/BuildTheDocs.yml@dev
+    needs:
+      - Params
+    with:
+      artifact: ${{ fromJson(needs.Params.outputs.params).artifacts.doc }}
 
-#    needs:
-#      - VerifyDocs
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: 🚢 Build container image 'EDAA/doc'
-        run: |
-          docker build -t edaa/doc - <<-EOF
-          FROM btdi/sphinx:featured
-          RUN apk add -U --no-cache graphviz
-          EOF
-
-      - name: 🛳️ Build documentation using container edaa/doc and publish to GitHub Pages
-        uses: buildthedocs/btd@v0
-        with:
-          token: ${{ github.token }}
-
-      - name: 📤 Upload artifacts
-        uses: actions/upload-artifact@master
-        with:
-          name: doc
-          path: doc/_build/html
+  PublishToGitHubPages:
+    uses: pyTooling/Actions/.github/workflows/PublishToGitHubPages.yml@dev
+    needs:
+      - Params
+      - BuildTheDocs
+      - Coverage
+    with:
+      doc: ${{ fromJson(needs.Params.outputs.params).artifacts.doc }}
+      coverage: ${{ fromJson(needs.Params.outputs.params).artifacts.coverage }}
 
 
   ArtifactCleanUp:
