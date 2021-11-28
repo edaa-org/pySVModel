@@ -4,11 +4,8 @@ on:
   push:
   workflow_dispatch:
 
-defaults:
-  run:
-    shell: bash
-
 jobs:
+
   UnitTesting:
     name: ${{ matrix.icon }} Unit Tests using Python ${{ matrix.python }}
     runs-on: ubuntu-latest
