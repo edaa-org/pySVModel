@@ -77,17 +77,16 @@ jobs:
   ArtifactCleanUp:
     name: 🗑️ Artifact Cleanup
     runs-on: ubuntu-latest
-
     needs:
-      - Package
-      - PublishOnPyPI
-
-    env:
-      ARTIFACT: ${{ needs.Package.outputs.artifact }}
+      - Params
+      - Coverage
+      - BuildTheDocs
+      - PublishToGitHubPages
 
     steps:
       - name: 🗑️ Delete all Artifacts
         uses: geekyeggo/delete-artifact@v1
         with:
           name: |
-            ${{ env.ARTIFACT }}
+            ${{ fromJson(needs.Params.outputs.params).artifacts.coverage }}
+            ${{ fromJson(needs.Params.outputs.params).artifacts.doc }}
