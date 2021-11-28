@@ -6,6 +6,11 @@ on:
 
 jobs:
 
+  Params:
+    uses: pyTooling/Actions/.github/workflows/Params.yml@dev
+    with:
+      name: pySVModel
+
   UnitTesting:
     name: ${{ matrix.icon }} Unit Tests using Python ${{ matrix.python }}
     runs-on: ubuntu-latest
