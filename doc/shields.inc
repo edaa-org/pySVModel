@@ -64,14 +64,14 @@
    :target: https://GitHub.com/edaa-org/pySVModel/network/dependents
 
 .. # GHA test and coverage
-.. |SHIELD:svg:pySVModel-gha-test| image:: https://img.shields.io/github/workflow/status/edaa-org/pySVModel/Unit%20Testing,%20Coverage%20Collection,%20Package,%20Release,%20Documentation%20and%20Publish/main?longCache=true&style=flat-square&label=Build%20and%20Test&logo=GitHub%20Actions&logoColor=FFFFFF
+.. |SHIELD:svg:pySVModel-gha-test| image:: https://img.shields.io/github/workflow/status/edaa-org/pySVModel/Pipeline/main?longCache=true&style=flat-square&label=Build%20and%20Test&logo=GitHub%20Actions&logoColor=FFFFFF
    :alt: GitHub Workflow - Build and Test Status
    :height: 22
-   :target: https://GitHub.com/edaa-org/pySVModel/actions?query=workflow%3A%22Test+and+Coverage%22
-.. |SHIELD:png:pySVModel-gha-test| image:: https://img.shields.io/github/workflow/status/edaa-org/pySVModel/Unit%20Testing,%20Coverage%20Collection,%20Package,%20Release,%20Documentation%20and%20Publish/main?longCache=true&style=flat-square&label=Build%20and%20Test&logo=GitHub%20Actions&logoColor=FFFFFF
+   :target: https://GitHub.com/edaa-org/pySVModel/actions/workflows/Pipeline.yml
+.. |SHIELD:png:pySVModel-gha-test| image:: https://raster.shields.io/github/workflow/status/edaa-org/pySVModel/Pipeline/main?longCache=true&style=flat-square&label=Build%20and%20Test&logo=GitHub%20Actions&logoColor=FFFFFF
    :alt: GitHub Workflow - Build and Test Status
    :height: 22
-   :target: https://GitHub.com/edaa-org/pySVModel/actions?query=workflow%3A%22Test+and+Coverage%22
+   :target: https://GitHub.com/edaa-org/pySVModel/actions/workflows/Pipeline.yml
 
 .. # Codacy - quality
 .. |SHIELD:svg:pySVModel-codacy-quality| image:: https://img.shields.io/codacy/grade/39d312bf98244961975559f141c3e000?longCache=true&style=flat-square&logo=codacy
