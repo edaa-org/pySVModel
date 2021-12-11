@@ -232,10 +232,10 @@ autodoc_member_order = "bysource"       # alphabetical, groupwise, bysource
 # Sphinx.Ext.ExtLinks
 # ==============================================================================
 extlinks = {
-	'issue': ('https://GitHub.com/edaa-org/pySVModel/issues/%s', 'issue #'),
-	'pull':  ('https://GitHub.com/edaa-org/pySVModel/pull/%s', 'pull request #'),
-	'src':   ('https://GitHub.com/edaa-org/pySVModel/blob/main/pySVModel/%s?ts=2', None),
-#	'test':  ('https://GitHub.com/edaa-org/pySVModel/blob/main/test/%s?ts=2', None)
+	"ghissue": ('https://GitHub.com/edaa-org/pySVModel/issues/%s', 'issue #'),
+	"ghpull":  ('https://GitHub.com/edaa-org/pySVModel/pull/%s', 'pull request #'),
+	"ghsrc":   ('https://GitHub.com/edaa-org/pySVModel/blob/main/pySVModel/%s?ts=2', None),
+#	"ghtest":  ('https://GitHub.com/edaa-org/pySVModel/blob/main/test/%s?ts=2', None)
 }
 
 
