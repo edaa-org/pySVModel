@@ -10,10 +10,6 @@
 #
 # Python package:     An abstract SystemVerilog language model.
 #
-# Description:
-# ------------------------------------
-#		TODO:
-#
 # License:
 # ==============================================================================
 # Copyright 2021-2021 Patrick Lehmann - Boetzingen, Germany
@@ -45,7 +41,11 @@ from typing import Dict, Union
 from pyTooling.Decorators import export
 
 
-__version__ = "0.3.1"
+__author__ =    "Patrick Lehmann"
+__email__ =     "Paebbels@gmail.com"
+__copyright__ = "2021-2021, Patrick Lehmann"
+__license__ =   "Apache License, Version 2.0"
+__version__ =   "0.3.2"
 
 
 @export

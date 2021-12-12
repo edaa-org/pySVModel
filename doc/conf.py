@@ -7,6 +7,7 @@ from os.path import abspath
 from pathlib import Path
 from json import loads
 
+from pyTooling.Packaging import extractVersionInformation
 
 ROOT = Path(__file__).resolve().parent
 
@@ -17,39 +18,20 @@ sys_path.insert(0, abspath('../pySVModel'))
 
 
 # ==============================================================================
-# Project information
-# ==============================================================================
-project =   "pySVModel"
-copyright = "2021-2021 Patrick Lehmann - Boetzingen, Germany"
-author =    "Patrick Lehmann"
-
-
-# ==============================================================================
-# Versioning
+# Project information and versioning
 # ==============================================================================
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
-from subprocess import check_output
+project =     "pySVModel"
 
-def _IsUnderGitControl():
-	return (check_output(["git", "rev-parse", "--is-inside-work-tree"], universal_newlines=True).strip() == "true")
+packageInformationFile = Path(f"../{project}/__init__.py")
+versionInformation = extractVersionInformation(packageInformationFile)
 
-def _LatestTagName():
-	return check_output(["git", "describe", "--abbrev=0", "--tags"], universal_newlines=True).strip()
-
-# The full version, including alpha/beta/rc tags
-version = "0.3"     # The short X.Y version.
-release = "0.3.1"   # The full version, including alpha/beta/rc tags.
-try:
-	if _IsUnderGitControl:
-		latestTagName = _LatestTagName()[1:]		# remove prefix "v"
-		versionParts =  latestTagName.split("-")[0].split(".")
-
-		version = ".".join(versionParts[:2])
-		release = latestTagName   # ".".join(versionParts[:3])
-except:
-	pass
+author =    versionInformation.Author
+copyright = versionInformation.Copyright
+version =   ".".join(versionInformation.Version.split(".")[:2])  # e.g. 2.3    The short X.Y version.
+release =   versionInformation.Version
 
 
 # ==============================================================================
@@ -232,10 +214,10 @@ autodoc_member_order = "bysource"       # alphabetical, groupwise, bysource
 # Sphinx.Ext.ExtLinks
 # ==============================================================================
 extlinks = {
-	'issue': ('https://GitHub.com/edaa-org/pySVModel/issues/%s', 'issue #'),
-	'pull':  ('https://GitHub.com/edaa-org/pySVModel/pull/%s', 'pull request #'),
-	'src':   ('https://GitHub.com/edaa-org/pySVModel/blob/main/pySVModel/%s?ts=2', None),
-#	'test':  ('https://GitHub.com/edaa-org/pySVModel/blob/main/test/%s?ts=2', None)
+	"ghissue": ('https://GitHub.com/edaa-org/pySVModel/issues/%s', 'issue #'),
+	"ghpull":  ('https://GitHub.com/edaa-org/pySVModel/pull/%s', 'pull request #'),
+	"ghsrc":   ('https://GitHub.com/edaa-org/pySVModel/blob/main/pySVModel/%s?ts=2', None),
+#	"ghtest":  ('https://GitHub.com/edaa-org/pySVModel/blob/main/test/%s?ts=2', None)
 }
 
 
