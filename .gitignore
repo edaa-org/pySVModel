@@ -16,12 +16,16 @@ coverage.xml
 !requirements.txt
 
 # Sphinx
-doc/_build/
-doc/pySystemVerilogModel/**/*.*
-!doc/pySystemVerilogModel/index.rst
+/doc/_build/
+/doc/_theme/
+/doc/pySVModel/**/*.*
+!/doc/pySVModel/index.rst
 
 # BuildTheDocs
-doc/_theme/**/*.*
+/doc/_theme
 
 # IntelliJ project files
 /.idea/workspace.xml
+
+# VSCode settings
+/.vscode
