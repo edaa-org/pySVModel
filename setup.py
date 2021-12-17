@@ -30,7 +30,7 @@
 # ============================================================================
 #
 from pathlib             import Path
-from pyTooling.Packaging import DescribePythonPackageHostedOnGitHub
+from pyTooling.Packaging import DescribePythonPackageHostedOnGitHub, DEFAULT_CLASSIFIERS
 
 gitHubNamespace =        "edaa-org"
 packageName =            "pySVModel"
@@ -44,13 +44,9 @@ DescribePythonPackageHostedOnGitHub(
 	keywords="Python3 Verilog SystemVerilog Language Model Abstract",
 	sourceFileWithVersion=packageInformationFile,
 	developmentStatus="beta",
-	classifiers=[
-		"Operating System :: OS Independent",
-		"Intended Audience :: Developers",
-		"Topic :: Utilities",
+	classifiers=list(DEFAULT_CLASSIFIERS) + [
 		"Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)",
 		"Topic :: Software Development :: Code Generators",
-		"Topic :: Software Development :: Compilers",
-		"Topic :: Utilities"
+		"Topic :: Software Development :: Compilers"
 	]
 )
