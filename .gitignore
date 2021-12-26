@@ -8,20 +8,18 @@ __pycache__/
 coverage.xml
 
 # setuptools
-/build/**/*.*
-/dist/**/*.*
+/build/
+/dist/
 /*.egg-info
 
 # Dependencies
 !requirements.txt
 
 # Sphinx
-doc/_build/
-doc/pySystemVerilogModel/**/*.*
-!doc/pySystemVerilogModel/index.rst
+/doc/_build/
+/doc/_theme/
+/doc/pySVModel/**/*.*
+!/doc/pySVModel/index.rst
 
-# BuildTheDocs
-doc/_theme/**/*.*
-
-# IntelliJ project files
+# PyCharm project files
 /.idea/workspace.xml

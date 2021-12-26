@@ -25,7 +25,7 @@
 An abstract language model of SystemVerilog (incl. Verilog) written in Python.
 
 
-## Main Goals
+# Main Goals
 
 This package provides a unified abstract language model for SystemVerilog (incl. Verilog).
 Projects reading from source files can derive own classes and implement additional logic to create a concrete language
@@ -35,33 +35,33 @@ Projects consuming pre-processed System Verilog data (parsed, analyzed or elabor
 and services on such a model, while supporting multiple frontends.
 
 
-## Use Cases
+# Use Cases
 
-### pySVModel Generators
+## pySVModel Generators
 
 * See [#11: Interfacing Surelog/UHDM](https://GitHub.com/edaa-org/pySVModel/issues/11)
 
 *TBD*
 
-### pySVModel Consumers
+## pySVModel Consumers
 
 * [Electronic Design Automation Abstraction (EDA²)](https://edaa-org.github.io/)
 
 *TBD*
 
-## Examples
+# Examples
 
-### List all Modules with Parameters and Ports
+## List all Modules with Parameters and Ports
 
 *TBD*
 
-## Contributors
+# Contributors
 
 * [Patrick Lehmann](https://GitHub.com/Paebbels) (Maintainer)
 * [Unai Martinez-Corral](https://GitHub.com/umarcor)
 * [and more...](https://GitHub.com/edaa-org/pySVModel/graphs/contributors)
 
-## License
+# License
 
 This Python package (source code) licensed under [Apache License 2.0](LICENSE.md).  
 The accompanying documentation is licensed under [Creative Commons - Attribution 4.0 (CC-BY 4.0)](doc/Doc-License.rst).
