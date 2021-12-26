@@ -147,7 +147,8 @@ License
    :caption: Appendix
    :hidden:
 
-   ChangeLog/index
+   Coverage Report ➚ <https://edaa-org.GitHub.io/pySVModel/coverage/>
+   Static Type Check Report ➚ <https://edaa-org.GitHub.io/pySVModel/typing/>
    License
    Doc-License
    Glossary
