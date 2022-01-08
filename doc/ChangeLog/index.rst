@@ -9,4 +9,4 @@ Upcoming Release
 23.09.2021
 ==========
 
-Classes :cls:`VerilogModel` and :cls:`SystemVerilogVersion` were moved from pyEDAA.ProjectModel to this package.
+Classes :class:`VerilogModel` and :class:`SystemVerilogVersion` were moved from pyEDAA.ProjectModel to this package.
