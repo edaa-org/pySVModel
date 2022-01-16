@@ -147,7 +147,8 @@ License
    :caption: Appendix
    :hidden:
 
-   ChangeLog/index
+   Coverage Report ➚ <coverage/index>
+   Static Type Check Report ➚ <typing/index>
    License
    Doc-License
    Glossary
