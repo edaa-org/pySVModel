@@ -14,7 +14,6 @@ ROOT = Path(__file__).resolve().parent
 sys_path.insert(0, abspath('.'))
 sys_path.insert(0, abspath('..'))
 sys_path.insert(0, abspath('../pySVModel'))
-#sys_path.insert(0, abspath('_extensions'))
 
 
 # ==============================================================================
@@ -39,9 +38,6 @@ release =   versionInformation.Version
 # ==============================================================================
 # The master toctree document.
 master_doc = 'index'
-
-# Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -154,7 +150,6 @@ latex_documents = [
 ]
 
 
-
 # ==============================================================================
 # Extensions
 # ==============================================================================
@@ -169,31 +164,12 @@ extensions = [
 	'sphinx.ext.mathjax',
 	'sphinx.ext.ifconfig',
 	'sphinx.ext.viewcode',
-#	'sphinx.ext.duration',
-
-# SphinxContrib extensions
-# 'sphinxcontrib.actdiag',
-# 'sphinxcontrib.seqdiag',
-# 'sphinxcontrib.textstyle',
-# 'sphinxcontrib.spelling',
-# 'changelog',
-
-# BuildTheDocs extensions
-#	'btd.sphinx.autoprogram',
-#	'btd.sphinx.graphviz',
-#	'btd.sphinx.inheritance_diagram',
-
 # Other extensions
-#	'DocumentMember',
+	'autoapi.sphinx',
 	'sphinx_fontawesome',
 	'sphinx_autodoc_typehints',
-
-# local extensions (patched)
-	'autoapi.sphinx',
-
-# local extensions
-#	'DocumentMember'
 ]
+
 
 # ==============================================================================
 # Sphinx.Ext.InterSphinx
