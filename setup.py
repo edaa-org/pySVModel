@@ -43,7 +43,7 @@ DescribePythonPackageHostedOnGitHub(
 	gitHubNamespace=gitHubNamespace,
 	keywords="Python3 Verilog SystemVerilog Language Model Abstract",
 	sourceFileWithVersion=packageInformationFile,
-	developmentStatus="beta",
+	developmentStatus="alpha",
 	classifiers=list(DEFAULT_CLASSIFIERS) + [
 		"Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)",
 		"Topic :: Software Development :: Code Generators",
