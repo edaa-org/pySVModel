@@ -1,0 +1,48 @@
+pySVModel
+=============
+
+.. automodule:: pySVModel
+
+
+.. currentmodule:: pySVModel
+
+
+.. #-----------------------------------
+
+
+**Classes**
+
+- :py:class:`VerilogVersion`:
+  An enumeration.
+
+- :py:class:`SystemVerilogVersion`:
+  An enumeration.
+
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: VerilogVersion
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: VerilogVersion
+      :parts: 1
+
+   .. rubric:: Members
+
+.. autoclass:: SystemVerilogVersion
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: SystemVerilogVersion
+      :parts: 1
+
+   .. rubric:: Members
