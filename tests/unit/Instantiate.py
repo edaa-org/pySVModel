@@ -11,7 +11,7 @@
 #                                                                                                                      #
 # License:                                                                                                             #
 # ==================================================================================================================== #
-# Copyright 2021-2022 Patrick Lehmann - Boetzingen, Germany                                                            #
+# Copyright 2021-2023 Patrick Lehmann - Boetzingen, Germany                                                            #
 #                                                                                                                      #
 # Licensed under the Apache License, Version 2.0 (the "License");                                                      #
 # you may not use this file except in compliance with the License.                                                     #
@@ -29,9 +29,9 @@
 # ==================================================================================================================== #
 #
 """Instantiation tests for the language model."""
-from unittest import TestCase
+from unittest  import TestCase
 
-from pySVModel import VerilogVersion, SystemVerilogVersion
+from pySVModel import SystemVerilogVersion
 
 
 if __name__ == "__main__": # pragma: no cover
@@ -40,13 +40,135 @@ if __name__ == "__main__": # pragma: no cover
 	exit(1)
 
 
-class Instantiate(TestCase):
-	def test_VerilogVersion(self):
-		version = VerilogVersion.Parse("95")
+class SVVersion(TestCase):
+	def test_Any(self):
+		versions = (
+			SystemVerilogVersion.Parse(-1),
+			SystemVerilogVersion.Parse("Any"),
+		)
 
-		self.assertIsNotNone(version)
+		for version in versions:
+			self.assertIs(SystemVerilogVersion.Any, version)
 
-	def test_SystemVerilogVersion(self):
-		version = SystemVerilogVersion.Parse("2017")
+		print()
+		print(version)
+		print(version.value)
 
-		self.assertIsNotNone(version)
+	def test_V1995(self):
+		versions = (
+			SystemVerilogVersion.Parse(95),
+			SystemVerilogVersion.Parse(1995),
+			SystemVerilogVersion.Parse("95"),
+			SystemVerilogVersion.Parse("1995"),
+		)
+
+		for version in versions:
+			self.assertIs(SystemVerilogVersion.Verilog95, version)
+
+		print()
+		print(version)
+		print(version.value)
+
+	def test_V2001(self):
+		versions = (
+			SystemVerilogVersion.Parse(1),
+			SystemVerilogVersion.Parse(2001),
+			SystemVerilogVersion.Parse("01"),
+			SystemVerilogVersion.Parse("2001"),
+		)
+
+		for version in versions:
+			self.assertIs(SystemVerilogVersion.Verilog2001, version)
+
+		print()
+		print(version)
+		print(version.value)
+
+	def test_V2005(self):
+		versions = (
+			SystemVerilogVersion.Parse(5),
+			# SystemVerilogVersion.Parse(2005),
+			SystemVerilogVersion.Parse("05"),
+			# SystemVerilogVersion.Parse("2005"),
+		)
+
+		for version in versions:
+			self.assertIs(SystemVerilogVersion.Verilog2005, version)
+
+		print()
+		print(version)
+		print(version.value)
+
+	def test_SV2005(self):
+		versions = (
+			# SystemVerilogVersion.Parse(5),
+			SystemVerilogVersion.Parse(2005),
+			# SystemVerilogVersion.Parse("05"),
+			SystemVerilogVersion.Parse("2005"),
+		)
+
+		for version in versions:
+			self.assertIs(SystemVerilogVersion.SystemVerilog2005, version)
+
+		print()
+		print(version)
+		print(version.value)
+
+	def test_SV2009(self):
+		versions = (
+			SystemVerilogVersion.Parse(9),
+			SystemVerilogVersion.Parse(2009),
+			SystemVerilogVersion.Parse("09"),
+			SystemVerilogVersion.Parse("2009"),
+		)
+
+		for version in versions:
+			self.assertIs(SystemVerilogVersion.SystemVerilog2009, version)
+
+		print()
+		print(version)
+		print(version.value)
+
+	def test_SV2012(self):
+		versions = (
+			SystemVerilogVersion.Parse(12),
+			SystemVerilogVersion.Parse(2012),
+			SystemVerilogVersion.Parse("12"),
+			SystemVerilogVersion.Parse("2012"),
+		)
+
+		for version in versions:
+			self.assertIs(SystemVerilogVersion.SystemVerilog2012, version)
+
+		print()
+		print(version)
+		print(version.value)
+
+	def test_SV2017(self):
+		versions = (
+			SystemVerilogVersion.Parse(17),
+			SystemVerilogVersion.Parse(2017),
+			SystemVerilogVersion.Parse("17"),
+			SystemVerilogVersion.Parse("2017"),
+		)
+
+		for version in versions:
+			self.assertIs(SystemVerilogVersion.SystemVerilog2017, version)
+
+		print()
+		print(version)
+		print(version.value)
+
+	def test_IntError(self):
+		with self.assertRaises(ValueError):
+			_ = SystemVerilogVersion.Parse(0)
+
+		with self.assertRaises(ValueError):
+			_ = SystemVerilogVersion.Parse(13)
+
+	def test_StrError(self):
+		with self.assertRaises(ValueError):
+			_ = SystemVerilogVersion.Parse("0")
+
+		with self.assertRaises(ValueError):
+			_ = SystemVerilogVersion.Parse("13")
