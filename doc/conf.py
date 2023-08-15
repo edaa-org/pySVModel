@@ -206,7 +206,7 @@ autodoc_typehints = "both"
 extlinks = {
 	"ghissue": ('https://GitHub.com/edaa-org/pySVModel/issues/%s', 'issue #'),
 	"ghpull":  ('https://GitHub.com/edaa-org/pySVModel/pull/%s', 'pull request #'),
-	"ghsrc":   ('https://GitHub.com/edaa-org/pySVModel/blob/main/%s?ts=2', ""),
+	"ghsrc":   ('https://GitHub.com/edaa-org/pySVModel/blob/main/%s?ts=2', None),
 }
 
 
