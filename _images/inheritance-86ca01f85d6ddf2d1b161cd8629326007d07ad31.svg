@@ -1,0 +1,29 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="0pt" height="864pt" viewBox="0.00 0.00 0.39 864.00">
+<ns0:g id="graph0" class="graph" transform="scale(0.00149444 0.00149444) rotate(0) translate(4 578140.91)">
+<ns0:title>inheritance1f2a1754bc</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>Enum</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="https://docs.python.org/3/library/enum.html#enum.Enum" ns1:title="Create a collection of name/value pairs." target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="54,-289077.71 0,-289077.71 0,-289059.21 54,-289059.21 54,-289077.71" />
+<ns0:text text-anchor="middle" x="27" y="-289064.21" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Enum</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>SystemVerilogVersion</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="../pySVModel/pySVModel.html#pySVModel.SystemVerilogVersion" ns1:title="SystemVerilogVersion" target="_top">
+<ns0:polygon fill="white" stroke="black" stroke-width="0.5" points="256,-578136.91 90,-578136.91 90,0 256,0 256,-578136.91" />
+<ns0:text text-anchor="middle" x="173" y="-578123.41" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SystemVerilogVersion</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>Enum-&gt;SystemVerilogVersion</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M54.41,-289068.46C63.04,-289068.46 73.16,-289068.46 83.77,-289068.46" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="84.72,-289070.21 89.72,-289068.46 84.72,-289066.71 84.72,-289070.21" />
+</ns0:g>
+</ns0:g>
+</ns0:svg>
