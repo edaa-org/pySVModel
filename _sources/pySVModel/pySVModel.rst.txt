@@ -1,0 +1,26 @@
+.. # Template modified  by Patrick Lehmann
+     * removed automodule on top, because private members are activated for autodoc (no doubled documentation).
+     * Made sections like 'submodules' bold text, but no headlines to reduce number of ToC levels.
+
+=============
+``pySVModel``
+=============
+
+.. py:module:: pySVModel
+
+
+.. currentmodule:: pySVModel
+
+
+**Classes**
+
+- :py:class:`SystemVerilogVersion`:
+  Create a collection of name/value pairs.
+
+
+.. autoclass:: SystemVerilogVersion
+   :members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: SystemVerilogVersion
+      :parts: 1
