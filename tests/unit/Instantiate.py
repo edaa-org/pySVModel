@@ -11,7 +11,7 @@
 #                                                                                                                      #
 # License:                                                                                                             #
 # ==================================================================================================================== #
-# Copyright 2021-2023 Patrick Lehmann - Boetzingen, Germany                                                            #
+# Copyright 2021-2024 Patrick Lehmann - Boetzingen, Germany                                                            #
 #                                                                                                                      #
 # Licensed under the Apache License, Version 2.0 (the "License");                                                      #
 # you may not use this file except in compliance with the License.                                                     #
@@ -41,7 +41,7 @@ if __name__ == "__main__": # pragma: no cover
 
 
 class SVVersion(TestCase):
-	def test_Any(self):
+	def test_Any(self) -> None:
 		versions = (
 			SystemVerilogVersion.Parse(-1),
 			SystemVerilogVersion.Parse("Any"),
@@ -54,7 +54,7 @@ class SVVersion(TestCase):
 		print(version)
 		print(version.value)
 
-	def test_V1995(self):
+	def test_V1995(self) -> None:
 		versions = (
 			SystemVerilogVersion.Parse(95),
 			SystemVerilogVersion.Parse(1995),
@@ -69,7 +69,7 @@ class SVVersion(TestCase):
 		print(version)
 		print(version.value)
 
-	def test_V2001(self):
+	def test_V2001(self) -> None:
 		versions = (
 			SystemVerilogVersion.Parse(1),
 			SystemVerilogVersion.Parse(2001),
@@ -84,7 +84,7 @@ class SVVersion(TestCase):
 		print(version)
 		print(version.value)
 
-	def test_V2005(self):
+	def test_V2005(self) -> None:
 		versions = (
 			SystemVerilogVersion.Parse(5),
 			# SystemVerilogVersion.Parse(2005),
@@ -99,7 +99,7 @@ class SVVersion(TestCase):
 		print(version)
 		print(version.value)
 
-	def test_SV2005(self):
+	def test_SV2005(self) -> None:
 		versions = (
 			# SystemVerilogVersion.Parse(5),
 			SystemVerilogVersion.Parse(2005),
@@ -114,7 +114,7 @@ class SVVersion(TestCase):
 		print(version)
 		print(version.value)
 
-	def test_SV2009(self):
+	def test_SV2009(self) -> None:
 		versions = (
 			SystemVerilogVersion.Parse(9),
 			SystemVerilogVersion.Parse(2009),
@@ -129,7 +129,7 @@ class SVVersion(TestCase):
 		print(version)
 		print(version.value)
 
-	def test_SV2012(self):
+	def test_SV2012(self) -> None:
 		versions = (
 			SystemVerilogVersion.Parse(12),
 			SystemVerilogVersion.Parse(2012),
@@ -144,7 +144,7 @@ class SVVersion(TestCase):
 		print(version)
 		print(version.value)
 
-	def test_SV2017(self):
+	def test_SV2017(self) -> None:
 		versions = (
 			SystemVerilogVersion.Parse(17),
 			SystemVerilogVersion.Parse(2017),
@@ -159,14 +159,14 @@ class SVVersion(TestCase):
 		print(version)
 		print(version.value)
 
-	def test_IntError(self):
+	def test_IntError(self) -> None:
 		with self.assertRaises(ValueError):
 			_ = SystemVerilogVersion.Parse(0)
 
 		with self.assertRaises(ValueError):
 			_ = SystemVerilogVersion.Parse(13)
 
-	def test_StrError(self):
+	def test_StrError(self) -> None:
 		with self.assertRaises(ValueError):
 			_ = SystemVerilogVersion.Parse("0")
 
