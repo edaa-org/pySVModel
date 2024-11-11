@@ -31,8 +31,16 @@
 """
 An abstract SystemVerilog language model.
 
-:copyright: Copyright 2021-2024 Patrick Lehmann - Bötzingen, Germany
-:license: Apache License, Version 2.0
+This package provides a unified abstract language model for SystemVerilog. Projects reading from source files can derive
+own classes and implement additional logic to create a concrete language model for their tools.
+
+Projects consuming pre-processed SystemVerilog data can build higher level features and services on such a model, while
+supporting multiple frontends.
+
+.. admonition:: Copyright Information
+
+   :copyright: Copyright 2021-2024 Patrick Lehmann - Bötzingen, Germany
+   :license: Apache License, Version 2.0
 """
 from enum   import unique, Enum
 from typing import Dict, Union
@@ -50,18 +58,26 @@ __version__ =   "0.5.1"
 @export
 @unique
 class SystemVerilogVersion(Enum):
-	Any =                  -1
+	"""
+	An enumeration for all possible version numbers for (System)Verilog.
 
-	Verilog95 =            95
-	Verilog2001 =           1
-	Verilog2005 =           5
+	A version can be given as integer or string and is represented as a unified
+	enumeration value.
 
-	SystemVerilog2005 =  2005
-	SystemVerilog2009 =  2009
-	SystemVerilog2012 =  2012
-	SystemVerilog2017 =  2017
+	This enumeration supports compare operators.
+	"""
+	Any =                  -1  #: Any
 
-	Latest =            10000
+	Verilog95 =            95  #: Verilog-1995
+	Verilog2001 =           1  #: Verilog-2001
+	Verilog2005 =           5  #: Verilog-2005
+
+	SystemVerilog2005 =  2005  #: SystemVerilog-2005
+	SystemVerilog2009 =  2009  #: SystemVerilog-2009
+	SystemVerilog2012 =  2012  #: SystemVerilog-2012
+	SystemVerilog2017 =  2017  #: SystemVerilog-2017
+
+	Latest =            10000  #: Latest Systemverilog (2017)
 
 	__VERSION_MAPPINGS__: Dict[Union[int, str], Enum] = {
 		-1:       Any,
@@ -96,7 +112,7 @@ class SystemVerilogVersion(Enum):
 		"2012":   SystemVerilog2012,
 		"2017":   SystemVerilog2017,
 		"Latest": Latest
-	}
+	}  #: Dictionary of (System)Verilog year codes variants as integer and strings for mapping to unique enum values.
 
 	def __init__(self, *_):
 		"""Patch the embedded MAP dictionary"""
@@ -106,6 +122,13 @@ class SystemVerilogVersion(Enum):
 
 	@classmethod
 	def Parse(cls, value: Union[int, str]) -> "SystemVerilogVersion":
+		"""
+		Parses a (System)Verilog year code as integer or string to an enum value.
+
+		:param value:       (System)Verilog year code.
+		:returns:           Enumeration value.
+		:raises ValueError: If the year code is not recognized.
+		"""
 		try:
 			return cls.__VERSION_MAPPINGS__[value]
 		except KeyError:

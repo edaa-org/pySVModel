@@ -6,20 +6,32 @@ __pycache__/
 .coverage
 .cov
 coverage.xml
+/report/coverage
+
+# mypy
+/report/typing
+
+# pytest
+/report/unit
 
 # setuptools
-/build/
-/dist/
+/build/**/*.*
+/dist/**/*.*
 /*.egg-info
 
 # Dependencies
 !requirements.txt
 
 # Sphinx
-/doc/_build/
-/doc/_theme/
-/doc/pySVModel/**/*.*
-!/doc/pySVModel/index.rst
+doc/_build/
+doc/pySVModel/**/*.*
+!doc/pySVModel/index.rst
 
-# PyCharm project files
+# BuildTheDocs
+doc/_theme/**/*.*
+
+# IntelliJ project files
 /.idea/workspace.xml
+
+# Git files
+!.git*
