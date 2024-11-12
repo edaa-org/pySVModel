@@ -7,6 +7,17 @@ from pathlib import Path
 
 from pyTooling.Packaging import extractVersionInformation
 
+# ==============================================================================
+# Project configuration
+# ==============================================================================
+githubNamespace = "edaa-org"
+project = "pySVModel"
+directoryName = project.replace('.', '/')
+
+
+# ==============================================================================
+# Project paths
+# ==============================================================================
 ROOT = Path(__file__).resolve().parent
 
 sys_path.insert(0, abspath("."))
@@ -20,10 +31,7 @@ sys_path.insert(0, abspath("../pySVModel"))
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
-githubNamespace = "edaa-org"
-project = "pySVModel"
-
-packageInformationFile = Path(f"../{project.replace('.', '/')}/__init__.py")
+packageInformationFile = Path(f"../{directoryName}/__init__.py")
 versionInformation = extractVersionInformation(packageInformationFile)
 
 author =    versionInformation.Author
