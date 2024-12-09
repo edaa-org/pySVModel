@@ -28,8 +28,10 @@ PIP might download further packages as listed in :ref:`package dependencies <DEP
 Installing a Wheel Package from PyPI using PIP
 ==============================================
 
-Developers can install further dependencies for documentation generation (``doc``) or running unit tests (``test``) or
-just all (``all``) dependencies.
+Developers can install the |PackageName| package itself or the package with further dependencies for documentation
+generation (``doc``), running unit tests (``test``) or just all (``all``) dependencies.
+
+See :ref:`DEP` for more details.
 
 .. tab-set::
 
