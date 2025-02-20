@@ -11,7 +11,7 @@
 #                                                                                                                      #
 # License:                                                                                                             #
 # ==================================================================================================================== #
-# Copyright 2021-2024 Patrick Lehmann - Boetzingen, Germany                                                            #
+# Copyright 2021-2025 Patrick Lehmann - Boetzingen, Germany                                                            #
 #                                                                                                                      #
 # Licensed under the Apache License, Version 2.0 (the "License");                                                      #
 # you may not use this file except in compliance with the License.                                                     #
@@ -39,7 +39,7 @@ supporting multiple frontends.
 
 .. admonition:: Copyright Information
 
-   :copyright: Copyright 2021-2024 Patrick Lehmann - Bötzingen, Germany
+   :copyright: Copyright 2021-2025 Patrick Lehmann - Bötzingen, Germany
    :license: Apache License, Version 2.0
 """
 from enum   import unique, Enum
@@ -50,7 +50,7 @@ from pyTooling.Decorators import export
 
 __author__ =    "Patrick Lehmann"
 __email__ =     "Paebbels@gmail.com"
-__copyright__ = "2021-2024, Patrick Lehmann"
+__copyright__ = "2021-2025, Patrick Lehmann"
 __license__ =   "Apache License, Version 2.0"
 __version__ =   "0.5.2"
 
