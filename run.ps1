@@ -33,6 +33,7 @@ Param(
 )
 
 $PackageName = "pySVModel"
+$PackageVersion = "0.5.2"
 
 # set default values
 $EnableDebug =        [bool]$PSCmdlet.MyInvocation.BoundParameters["Debug"]
@@ -88,7 +89,7 @@ if ($build)
   rm -Force .\build\bdist.win-amd64
   rm -Force .\build\lib
   Write-Host -ForegroundColor Yellow        "[live][BUILD]      Building $PackageName package as wheel ..."
-  py -3.12 -m build --wheel
+  py -3.13 -m build --wheel
 
   Write-Host -ForegroundColor Yellow        "[live][BUILD]      Building wheel finished"
 }
@@ -102,9 +103,9 @@ if ($install)
   }
   else
   { Write-Host -ForegroundColor Cyan        "[ADMIN][UNINSTALL] Uninstalling $PackageName ..."
-    py -3.12 -m pip uninstall -y $PackageName
+    py -3.13 -m pip uninstall -y $PackageName
     Write-Host -ForegroundColor Cyan        "[ADMIN][INSTALL]   Installing $PackageName from wheel ..."
-    py -3.12 -m pip install .\dist\$PackageName-0.3.1-py3-none-any.whl
+    py -3.13 -m pip install .\dist\$PackageName-$PackageVersion-py3-none-any.whl
 
     Write-Host -ForegroundColor Cyan        "[ADMIN][INSTALL]   Closing window in 5 seconds ..."
     Start-Sleep -Seconds 5

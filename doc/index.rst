@@ -35,7 +35,7 @@ The pySVModel Documentation
 An abstract System Verilog language model.
 
 
-.. _goals:
+.. _GOALS:
 
 Main Goals
 **********
@@ -48,7 +48,7 @@ Projects consuming pre-processed System Verilog data (parsed, analyzed or elabor
 and services on such a model, while supporting multiple frontends.
 
 
-.. _usecase:
+.. _USECASES:
 
 Use Cases
 *********
@@ -56,7 +56,7 @@ Use Cases
 * TBD
 
 
-.. _news:
+.. _NEWS:
 
 News
 ****
@@ -78,8 +78,8 @@ News
 Contributors
 ************
 
-* `Patrick Lehmann <https://GitHub.com/Paebbels>`__ (Maintainer)
-* `Unai Martinez-Corral <https://GitHub.com/umarcor/>`__
+* :gh:`Patrick Lehmann <Paebbels>` (Maintainer)
+* :gh:`Unai Martinez-Corral <umarcor>`
 * `and more... <https://GitHub.com/edaa-org/pySVModel/graphs/contributors>`__
 
 
@@ -130,9 +130,10 @@ License
    :caption: References and Reports
    :hidden:
 
-   pySVModel/pySVModel
+   Python Class Reference <pySVModel/pySVModel>
    unittests/index
    coverage/index
+   CodeCoverage
    Doc. Coverage Report <DocCoverage>
    Static Type Check Report ➚ <typing/index>
 

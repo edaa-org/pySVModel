@@ -7,6 +7,17 @@ from pathlib import Path
 
 from pyTooling.Packaging import extractVersionInformation
 
+# ==============================================================================
+# Project configuration
+# ==============================================================================
+githubNamespace = "edaa-org"
+project = "pySVModel"
+directoryName = project.replace('.', '/')
+
+
+# ==============================================================================
+# Project paths
+# ==============================================================================
 ROOT = Path(__file__).resolve().parent
 
 sys_path.insert(0, abspath("."))
@@ -20,10 +31,7 @@ sys_path.insert(0, abspath("../pySVModel"))
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
-githubNamespace = "edaa-org"
-project = "pySVModel"
-
-packageInformationFile = Path(f"../{project.replace('.', '/')}/__init__.py")
+packageInformationFile = Path(f"../{directoryName}/__init__.py")
 versionInformation = extractVersionInformation(packageInformationFile)
 
 author =    versionInformation.Author
@@ -206,11 +214,12 @@ autodoc_typehints = "both"
 # Sphinx.Ext.ExtLinks
 # ==============================================================================
 extlinks = {
-	"gh":      (f"https://GitHub.com/%s", "gh:%s"),
-	"ghissue": (f"https://GitHub.com/{githubNamespace}/{project}/issues/%s", "issue #%s"),
-	"ghpull":  (f"https://GitHub.com/{githubNamespace}/{project}/pull/%s", "pull request #%s"),
-	"ghsrc":   (f"https://GitHub.com/{githubNamespace}/{project}/blob/main/%s", None),
-	"wiki":    (f"https://en.wikipedia.org/wiki/%s", None),
+	"gh":          (f"https://GitHub.com/%s", "%s"),
+	"ghissue":     (f"https://GitHub.com/{githubNamespace}/{project}/issues/%s", "issue #%s"),
+	"ghpull":      (f"https://GitHub.com/{githubNamespace}/{project}/pull/%s", "pull request #%s"),
+	"ghsrc":       (f"https://GitHub.com/{githubNamespace}/{project}/blob/main/%s", None),
+	"pypi":        ( "https://PyPI.org/project/%s", "%s"),
+	"wiki":        (f"https://en.wikipedia.org/wiki/%s", None),
 }
 
 
@@ -255,7 +264,7 @@ todo_link_only = True
 report_unittest_testsuites = {
 	"src": {
 		"name":        f"{project}",
-		"xml_report":  "../report/unit/TestReportSummary.xml",
+		"xml_report":  "../report/unit/unittest.xml",
 	}
 }
 report_codecov_packages = {
@@ -269,7 +278,7 @@ report_codecov_packages = {
 report_doccov_packages = {
 	"src": {
 		"name":       f"{project}",
-		"directory":  f"../{project}",
+		"directory":  f"../{directoryName}",
 		"fail_below": 80,
 		"levels":     "default"
 	}
