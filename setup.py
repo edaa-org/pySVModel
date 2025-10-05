@@ -39,19 +39,21 @@ packageName =            "pySVModel"
 packageDirectory =       packageName
 packageInformationFile = Path(f"{packageDirectory}/__init__.py")
 
-setup(**DescribePythonPackageHostedOnGitHub(
-	packageName=packageName,
-	description="An abstract SystemVerilog language model (incl. Verilog).",
-	gitHubNamespace=gitHubNamespace,
-	keywords="Python3 Verilog SystemVerilog Language Model Abstract",
-	sourceFileWithVersion=packageInformationFile,
-	developmentStatus="alpha",
-	classifiers=list(DEFAULT_CLASSIFIERS) + [
-		"Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)",
-		"Topic :: Software Development :: Code Generators",
-		"Topic :: Software Development :: Compilers"
-	],
-	dataFiles={
-		packageName: ["py.typed"]
-	}
-))
+setup(
+	**DescribePythonPackageHostedOnGitHub(
+		packageName=packageName,
+		description="An abstract SystemVerilog language model (incl. Verilog).",
+		gitHubNamespace=gitHubNamespace,
+		keywords="Python3 Verilog SystemVerilog Language Model Abstract",
+		sourceFileWithVersion=packageInformationFile,
+		developmentStatus="alpha",
+		classifiers=list(DEFAULT_CLASSIFIERS) + [
+			"Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)",
+			"Topic :: Software Development :: Code Generators",
+			"Topic :: Software Development :: Compilers"
+		],
+		dataFiles={
+			packageName: ["py.typed"]
+		}
+	)
+)
