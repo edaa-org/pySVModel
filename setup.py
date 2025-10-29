@@ -46,12 +46,13 @@ setup(
 		gitHubNamespace=gitHubNamespace,
 		keywords="Python3 Verilog SystemVerilog Language Model Abstract",
 		sourceFileWithVersion=packageInformationFile,
-		developmentStatus="alpha",
 		classifiers=list(DEFAULT_CLASSIFIERS) + [
 			"Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)",
 			"Topic :: Software Development :: Code Generators",
 			"Topic :: Software Development :: Compilers"
 		],
+		developmentStatus="alpha",
+		pythonVersions=("3.11", "3.12", "3.13", "3.14"),
 		dataFiles={
 			packageName: ["py.typed"]
 		}
