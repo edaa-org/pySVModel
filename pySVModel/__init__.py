@@ -48,11 +48,15 @@ from typing import Dict, Union
 from pyTooling.Decorators import export
 
 
-__author__ =    "Patrick Lehmann"
-__email__ =     "Paebbels@gmail.com"
-__copyright__ = "2021-2026, Patrick Lehmann"
-__license__ =   "Apache License, Version 2.0"
-__version__ =   "0.5.8"
+__author__ =            "Patrick Lehmann"
+__email__ =             "Paebbels@gmail.com"
+__copyright__ =         "2021-2026, Patrick Lehmann"
+__license__ =           "Apache License, Version 2.0"
+__version__ =           "0.5.8"
+# __keywords__ =          []
+__project_url__ =       "https://github.com/edaa-org/pySVModel"
+__documentation_url__ = "https://edaa-org.github.io/pySVModel"
+__issue_tracker_url__ = "https://GitHub.com/edaa-org/pySVModel/issues"
 
 
 @export
