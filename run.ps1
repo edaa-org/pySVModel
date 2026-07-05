@@ -33,7 +33,7 @@ Param(
 )
 
 $PackageName = "pySVModel"
-$PackageVersion = "0.5.9"
+$PackageVersion = "0.5.11"
 
 # set default values
 $EnableDebug =        [bool]$PSCmdlet.MyInvocation.BoundParameters["Debug"]
