@@ -1,9 +1,10 @@
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
-from sys import path as sys_path
-from os.path import abspath
-from pathlib import Path
+from sys      import path as sys_path
+from os.path  import abspath
+from pathlib  import Path
+from textwrap import dedent
 
 from pyTooling.Packaging import extractVersionInformation
 
@@ -11,8 +12,8 @@ from pyTooling.Packaging import extractVersionInformation
 # Project configuration
 # ==============================================================================
 githubNamespace = "edaa-org"
-project = "pySVModel"
-directoryName = project.replace('.', '/')
+githubProject = pythonProject = "pySVModel"
+directoryName = pythonProject.replace('.', '/')
 
 
 # ==============================================================================
@@ -22,7 +23,7 @@ ROOT = Path(__file__).resolve().parent
 
 sys_path.insert(0, abspath("."))
 sys_path.insert(0, abspath(".."))
-sys_path.insert(0, abspath("../pySVModel"))
+sys_path.insert(0, abspath(f"../{directoryName}"))
 
 
 # ==============================================================================
@@ -34,6 +35,7 @@ sys_path.insert(0, abspath("../pySVModel"))
 packageInformationFile = Path(f"../{directoryName}/__init__.py")
 versionInformation = extractVersionInformation(packageInformationFile)
 
+project =   pythonProject
 author =    versionInformation.Author
 copyright = versionInformation.Copyright
 version =   ".".join(versionInformation.Version.split(".")[:2])  # e.g. 2.3    The short X.Y version.
