@@ -36,10 +36,6 @@ own classes and implement additional logic to create a concrete language model f
 
 Projects consuming pre-processed SystemVerilog data can build higher level features and services on such a model, while
 supporting multiple frontends.
-
-.. admonition:: Copyright Information
-
-   :license: Apache License, Version 2.0
 """
 from enum   import unique, Enum
 from typing import Dict, Union
