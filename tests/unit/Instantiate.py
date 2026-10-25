@@ -29,9 +29,9 @@
 # ==================================================================================================================== #
 #
 """Instantiation tests for the language model."""
-from unittest  import TestCase
+from pyTooling.Testing import Testcase
 
-from pySVModel import SystemVerilogVersion
+from pySVModel         import SystemVerilogVersion
 
 
 if __name__ == "__main__":  # pragma: no cover
@@ -40,7 +40,7 @@ if __name__ == "__main__":  # pragma: no cover
 	exit(1)
 
 
-class SVVersion(TestCase):
+class SVVersion(Testcase):
 	def test_Any(self) -> None:
 		versions = (
 			SystemVerilogVersion.Parse(-1),
