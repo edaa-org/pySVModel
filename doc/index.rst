@@ -56,23 +56,6 @@ Use Cases
 * TBD
 
 
-.. _NEWS:
-
-News
-****
-
-.. only:: html
-
-   Sep. 2021 - New Repository Created
-   ==================================
-
-.. only:: latex
-
-   .. rubric:: New Repository Created
-
-* Moved ``VerilogVersion`` and ``SystemVerilogVersion`` classes from ``pyEDAA.ProjectModel`` to this new repository.
-
-
 .. _CONTRIBUTORS:
 
 Contributors
@@ -101,6 +84,7 @@ The accompanying documentation is licensed under :ref:`Creative Commons - Attrib
    :caption: Introduction
    :hidden:
 
+   News
    Installation
    Dependency
 
