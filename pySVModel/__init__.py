@@ -221,7 +221,7 @@ class SystemVerilogVersion(Enum):
 
 		:returns:          True if version is a (classic) Verilog version.
 		"""
-		return self == self.Verilog95 or self == self.Verilog2001 or self == self.Verilog2005
+		return self is self.Verilog95 or self is self.Verilog2001 or self is self.Verilog2005
 
 	@property
 	def IsSystemVerilog(self) -> bool:
